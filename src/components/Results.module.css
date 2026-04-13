@@ -1,0 +1,187 @@
+.section {
+  padding: 120px 5vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 800px; height: 400px;
+  background: radial-gradient(ellipse, rgba(56,210,255,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.inner { max-width: 1200px; margin: 0 auto; }
+
+.header {
+  text-align: center;
+  margin-bottom: 64px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.headerVisible { opacity: 1; transform: translateY(0); }
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.metric {
+  text-align: center;
+  padding: 40px 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.metric.metricVisible { opacity: 1; transform: translateY(0); }
+
+.metric::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(124,92,252,0.05) 0%, transparent 60%);
+}
+
+.metricVal {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+}
+
+.suffix {
+  font-size: 1.8rem;
+}
+
+.metricLabel {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.metricDesc {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Process */
+.process { }
+
+.processTitle {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.processGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.processGrid::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 40px; right: 40px;
+  height: 1px;
+  background: linear-gradient(to right, var(--accent1), var(--accent2), var(--accent3));
+  opacity: 0.3;
+}
+
+.step {
+  padding: 0 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.step.stepVisible { opacity: 1; transform: translateY(0); }
+
+.stepNum {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--accent1);
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--accent1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.stepLine { display: none; }
+
+.stepTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.stepDesc {
+  font-size: 0.83rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .metricsGrid { grid-template-columns: repeat(2, 1fr); }
+  .processGrid { grid-template-columns: 1fr; gap: 24px; }
+  .processGrid::before { display: none; }
+  .section { padding: 80px 5vw; }
+}
+
+@media (max-width: 500px) {
+  .metricsGrid { grid-template-columns: 1fr 1fr; }
+  .metricVal { font-size: 2.2rem; }
+  .suffix { font-size: 1.4rem; }
+}

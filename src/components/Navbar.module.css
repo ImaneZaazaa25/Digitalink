@@ -1,0 +1,128 @@
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5vw;
+  transition: background 0.4s, backdrop-filter 0.4s, box-shadow 0.4s;
+}
+
+.scrolled {
+  background: rgba(7,7,26,0.85);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoIcon { display: flex; align-items: center; }
+
+.logoText {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+.link {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  position: relative;
+  transition: color var(--transition);
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0;
+  width: 0; height: 1px;
+  background: var(--grad);
+  transition: width var(--transition);
+}
+
+.link:hover { color: var(--text); }
+.link:hover::after { width: 100%; }
+
+.cta {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 100px;
+  background: var(--grad);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(124,92,252,0.5);
+  opacity: 0.92;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+
+.burger span {
+  display: block;
+  width: 24px; height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.barOpen { transform: translateY(7px) rotate(45deg) !important; }
+.barHide { opacity: 0 !important; }
+.barOpen2 { transform: translateY(-7px) rotate(-45deg) !important; }
+
+@media (max-width: 768px) {
+  .burger { display: flex; }
+
+  .links {
+    position: fixed;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(7,7,26,0.97);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+    gap: 24px;
+    font-size: 1.2rem;
+  }
+
+  .links.open {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+
+  .link { font-size: 1.1rem; }
+  .cta { padding: 14px 36px; font-size: 1rem; }
+}
