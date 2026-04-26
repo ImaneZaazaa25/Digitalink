@@ -23,129 +23,47 @@ export default function Contact() {
 
   const [sent, setSent] = useState(false);
 
-  // 🔥 Data dynamique (plus propre)
-  const channels = [
-    {
-      icone: <FaEnvelope />,
-      label: 'Email',
-      value: 'contact@digitalink.ma',
-  href: 'mailto:contact@digitalink.ma'
-},
-    {
-      icone: <FaWhatsapp />,
-      label: 'WhatsApp',
-      value: '+212 660 385 276',
-      href: 'https://api.whatsapp.com/send/?phone=212660385276&text&type=phone_number&app_absent=0'
-    },
-    {
-      icone: <FaInstagram />,
-      label: 'Instagram',
-      value: '@digitalink.ma',
-      href: 'https://www.instagram.com/digitalink.ma'
-    },
-    {
-          icone: <FaFacebook />,
-          label: 'Facebook',
-          value: 'digitalnk',
-          href: 'https://web.facebook.com/digitalink.ma?_rdc=1&_rdr#'
-        },
-    {
-      icon: <FaLinkedin />,
-      label: 'LinkedIn',
-      value: 'digitalnk',
-      href: 'https://www.linkedin.com/company/digitalnk/about/'
-    },
-    {
-      icon: <FaMapMarkerAlt />,
-      label: 'Siège Social',
-      value: 'Casablanca, Maroc'
-    }
-  ];
-
   const handleChange = useCallback((e) => {
     const { name, value } = e.target;
     setForm(f => ({ ...f, [name]: value }));
   }, []);
 
-const handleSubmit = useCallback(async (e) => {
-  e.preventDefault();
+  const handleSubmit = useCallback(async (e) => {
+    e.preventDefault();
 
-  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz7Ue8Qb0PLr3iYQuCGAuLjuGC3sildN3yCFH5dck_DDdIYubi7oaf3Sq6Lh_J_732uGQ/exec';
+    const SCRIPT_URL =
+      'https://script.google.com/macros/s/AKfycbz7Ue8Qb0PLr3iYQuCGAuLjuGC3sildN3yCFH5dck_DDdIYubi7oaf3Sq6Lh_J_732uGQ/exec';
 
-  try {
-    // Utiliser FormData évite les problèmes CORS
-    const formData = new FormData();
-    formData.append('name', form.name);
-    formData.append('email', form.email);
-    formData.append('service', form.service);
-    formData.append('message', form.message);
+    try {
+      const formData = new FormData();
+      formData.append('name', form.name);
+      formData.append('email', form.email);
+      formData.append('service', form.service);
+      formData.append('message', form.message);
 
-    await fetch(SCRIPT_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      body: formData
-    });
+      await fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+      });
 
-    setSent(true);
-
-  } catch (error) {
-    console.error('Erreur:', error);
-    alert('Erreur lors de l\'envoi, réessayez.');
-  }
-}, [form]);
+      setSent(true);
+    } catch (error) {
+      console.error('Erreur:', error);
+      alert("Erreur lors de l'envoi, réessayez.");
+    }
+  }, [form]);
 
   return (
     <section className={styles.section} id="contact">
       <div className={styles.bg} />
 
       <div className={styles.inner}>
-        {/* LEFT CONTENT */}
-        <div ref={ref} className={`${styles.content} ${inView ? styles.visible : ''}`}>
-          <span className={styles.eyebrow}>Contactez-nous</span>
-
-          <h2 className={styles.title}>
-            Prêt à accélérer<br />
-            votre <span className="grad-text">croissance ?</span>
-          </h2>
-
-          <p className={styles.sub}>
-            Discutons de votre projet et construisons ensemble une stratégie digitale sur mesure pour votre entreprise.
-          </p>
-
-          {/* 🔥 Channels dynamiques */}
-          <div className={styles.channels}>
-            {channels.map((c, i) => {
-              const content = (
-                <>
-                  <span className={styles.channelIcon}>{c.icon}</span>
-                  <div>
-                    <div className={styles.channelLabel}>{c.label}</div>
-                    <div className={styles.channelVal}>{c.value}</div>
-                  </div>
-                </>
-              );
-
-              return c.href ? (
-                <a
-                  key={i}
-                  href={c.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles.channel}
-                >
-                  {content}
-                </a>
-              ) : (
-                <div key={i} className={styles.channel}>
-                  {content}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
         {/* FORM */}
-        <div className={`${styles.formWrap} ${inView ? styles.formVisible : ''}`}>
+        <div
+          ref={ref}
+          className={`${styles.formWrap} ${inView ? styles.formVisible : ''}`}
+        >
           {sent ? (
             <div className={styles.thanks}>
               <div className={styles.thanksIcon}>✅</div>
