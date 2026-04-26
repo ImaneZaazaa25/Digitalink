@@ -21,6 +21,26 @@ export default function Navbar() {
   const location  = useLocation();
   const navigate  = useNavigate();
 
+  // Fonction pour scroller en haut de page
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
+  // Fonction pour gérer le clic sur le logo
+  const handleLogoClick = useCallback((e) => {
+    e.preventDefault();
+    setMenuOpen(false);
+    
+    if (location.pathname === '/') {
+      // Déjà sur l'accueil, scroll vers le haut
+      scrollToTop();
+    } else {
+      // Navigue vers l'accueil puis scroll
+      navigate('/');
+      setTimeout(scrollToTop, 100);
+    }
+  }, [location.pathname, navigate, scrollToTop]);
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener('scroll', onScroll, { passive: true });
@@ -71,10 +91,14 @@ export default function Navbar() {
   return (
     <>
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-        {/* Logo */}
-        <Link to="/" className={styles.logo}>
+        {/* Logo - CORRIGÉ */}
+        <a 
+          href="/"
+          onClick={handleLogoClick}
+          className={styles.logo}
+        >
           <span className={styles.logoText}>Digitalink</span>
-        </Link>
+        </a>
 
         {/* Liens desktop */}
         <ul className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
@@ -105,7 +129,7 @@ export default function Navbar() {
               className={styles.cta}
               onClick={(e) => handleNavClick(e, { href: '/#contact', type: 'hash' })}
             >
-              Démarrer →
+              Demander un devis
             </a>
           </li>
         </ul>
