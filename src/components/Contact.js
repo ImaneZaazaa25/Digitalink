@@ -28,32 +28,37 @@ export default function Contact() {
     setForm(f => ({ ...f, [name]: value }));
   }, []);
 
-  const handleSubmit = useCallback(async (e) => {
-    e.preventDefault();
+const handleSubmit = useCallback(async (e) => {
+  e.preventDefault();
 
-    const SCRIPT_URL =
-      'https://script.google.com/macros/s/AKfycbz7Ue8Qb0PLr3iYQuCGAuLjuGC3sildN3yCFH5dck_DDdIYubi7oaf3Sq6Lh_J_732uGQ/exec';
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyVULI9woK4gNijtVNYSYCrS5uTeyGKaaR8HAxZ2z_4aKg9jCT1OFWcjirWbZIGn8gnhA/exec';
 
-    try {
-      const formData = new FormData();
-      formData.append('name', form.name);
-      formData.append('email', form.email);
-      formData.append('service', form.service);
-      formData.append('message', form.message);
+  try {
+    const params = new URLSearchParams({
+      name: form.name,
+      email: form.email,
+      service: form.service,
+      message: form.message
+    });
 
-      await fetch(SCRIPT_URL, {
-        method: 'POST',
-        mode: 'no-cors',
-        body: formData
-      });
+    const res = await fetch(`${SCRIPT_URL}?${params.toString()}`, {
+      method: 'GET',
+    });
 
+    const result = await res.json();
+
+    if (result.success) {
       setSent(true);
-    } catch (error) {
-      console.error('Erreur:', error);
-      alert("Erreur lors de l'envoi, réessayez.");
+      setForm({ name: '', email: '', service: '', message: '' });
+    } else {
+      alert("Erreur : " + result.error);
     }
-  }, [form]);
 
+  } catch (error) {
+    console.error('Erreur:', error);
+    alert("Erreur lors de l'envoi.");
+  }
+}, [form]);
   return (
     <section className={styles.section} id="contact">
       <div className={styles.bg} />
@@ -108,13 +113,13 @@ export default function Contact() {
                   required
                 >
                   <option value="">Choisir un service</option>
-                  <option>Google & Meta Ads</option>
+                  <option>Advertising SEA</option>
                   <option>SEO & Référencement</option>
                   <option>Social Media Management</option>
                   <option>Branding & Identité</option>
                   <option>Sites Web & E-commerce</option>
                   <option>Stratégie Complète</option>
-                  <option>Autre</option>
+                  <option>Consultation Digitale</option>
                 </select>
               </div>
 
@@ -126,6 +131,7 @@ export default function Contact() {
                   onChange={handleChange}
                   placeholder="Décrivez votre projet..."
                   rows={4}
+                  required
                 />
               </div>
 
