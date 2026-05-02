@@ -9,7 +9,7 @@ import {
   FaBullseye
 } from 'react-icons/fa';
 
-// 🔥 Data propre et scalable
+//  Data propre et scalable
 const PILLARS = [
   {
     title: 'Orientés Performance',

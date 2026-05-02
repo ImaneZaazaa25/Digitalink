@@ -125,10 +125,10 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/"              element={<HomePage />} />
-        <Route path="/about"         element={<AboutPage />} />
+        <Route path="/about-us"         element={<AboutPage />} />
         <Route path="/contact"       element={<ContactPage />} />
-        <Route path="/blog"          element={<BlogPage />} />
-        <Route path="/blog/:slug"    element={<BlogPostPage />} />
+        <Route path="/blogs"          element={<BlogPage />} />
+        <Route path="/blogs/:slug"    element={<BlogPostPage />} />
       </Routes>
       <ScrollToTop />
     </BrowserRouter>

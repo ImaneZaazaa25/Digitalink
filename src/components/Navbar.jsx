@@ -10,8 +10,8 @@ const NAV_LINKS = [
   { label: 'Accueil',   href: '/',          type: 'route' },  // ← Ajout de l'accueil
   { label: 'Services',  href: '/#services', type: 'hash' },
   { label: 'Résultats', href: '/#results',  type: 'hash' },
-  { label: 'À propos',  href: '/about',     type: 'route' },
-  { label: 'Blog',      href: '/blog',      type: 'route' },
+  { label: 'À propos de nous',  href: '/about-us',     type: 'route' },
+  { label: 'Blogs',      href: '/blogs',      type: 'route' },
   { label: 'Contact',   href: '/#contact',  type: 'hash' },  // scroll sur homepage
 ];
 
