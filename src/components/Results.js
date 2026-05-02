@@ -32,7 +32,7 @@ function useCountUp(target, inView, duration = 2000) {
 const METRICS = [
   { value: 100, suffix: '+', label: 'Clients Satisfaits', desc: 'PMEs et grandes entreprises' },
   { value: 360, suffix: '°', label: 'Services Digitaux', desc: 'Approche holistique complète' },
-  { value: 5, suffix: 'ans', label: 'D\'Expérience', desc: 'Depuis 2020 au Maroc' },
+  { value: 5, suffix: 'ans', label: 'D\'expertise', desc: 'Depuis 2020 au Maroc' },
   { value: 98, suffix: '%', label: 'Taux de Satisfaction', desc: 'Clients qui nous recommandent' },
 ];
 
