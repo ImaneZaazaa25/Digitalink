@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "http://digitalink.ma/*"
+  to = "https://digitalink.ma/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.digitalink.ma/*"
+  to = "https://digitalink.ma/:splat"
+  status = 301
+  force = true
