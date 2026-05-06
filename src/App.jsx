@@ -1,8 +1,9 @@
 import React, { Suspense, lazy, useCallback, useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Ticker from './components/Ticker';
+import { trackEvent } from './utils/gtm';
 
 const Services  = lazy(() => import('./components/Services'));
 const About     = lazy(() => import('./components/About'));
@@ -121,6 +122,23 @@ function BlogPostPage() {
 export default function App() {
   return (
     <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  const { pathname } = location;
+
+  useEffect(() => {
+    trackEvent('pageview', {
+      page: pathname,
+    });
+  }, [pathname]);
+
+  return (
+    <>
       <ScrollToTopOnNav />
       <Navbar />
       <Routes>
@@ -131,6 +149,6 @@ export default function App() {
         <Route path="/blogs/:slug"    element={<BlogPostPage />} />
       </Routes>
       <ScrollToTop />
-    </BrowserRouter>
+    </>
   );
 }
