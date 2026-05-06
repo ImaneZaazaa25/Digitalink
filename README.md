@@ -34,10 +34,10 @@ src/
 | URL              | Page                        |
 |------------------|-----------------------------|
 | `/`              | Homepage (Hero + Services + Results + Contact) |
-| `/about`         | Page À propos               |
+| `/about-us`         | Page À propos               |
 | `/contact`       | Page Contact standalone     |
-| `/blog`          | Liste des articles          |
-| `/blog/:slug`    | Article individuel          |
+| `/blogs`          | Liste des articles          |
+| `/blogs/:slug`    | Article individuel          |
 
 ## Ajouter un article de blog
 
