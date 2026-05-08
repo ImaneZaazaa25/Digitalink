@@ -17,6 +17,7 @@ export default function Contact() {
   const [form, setForm] = useState({
     name: '',
     email: '',
+    phone: '',
     service: '',
     message: ''
   });
@@ -31,12 +32,13 @@ export default function Contact() {
 const handleSubmit = useCallback(async (e) => {
   e.preventDefault();
 
-  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyVULI9woK4gNijtVNYSYCrS5uTeyGKaaR8HAxZ2z_4aKg9jCT1OFWcjirWbZIGn8gnhA/exec';
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylcXgmL_CEEdKrBb3xue-3Q0Do5tSyXi9sb2ASNiEm2a7DLFNSZQnl0yGCChltmnu7eA/exec';
 
   try {
     const params = new URLSearchParams({
       name: form.name,
       email: form.email,
+      phone: form.phone,
       service: form.service,
       message: form.message
     });
@@ -49,7 +51,7 @@ const handleSubmit = useCallback(async (e) => {
 
     if (result.success) {
       setSent(true);
-      setForm({ name: '', email: '', service: '', message: '' });
+      setForm({ name: '', email: '', phone: '', service: '', message: '' });
     } else {
       alert("Erreur : " + result.error);
     }
@@ -102,6 +104,18 @@ const handleSubmit = useCallback(async (e) => {
                     required
                   />
                 </div>
+              </div>
+
+              <div className={styles.field}>
+                <label>Téléphone</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={form.phone}
+                  onChange={handleChange}
+                  placeholder="+212 6 12 34 56 78"
+                  required
+                />
               </div>
 
               <div className={styles.field}>
