@@ -28,7 +28,7 @@ export default function Contact() {
     const { name, value } = e.target;
     setForm(f => ({ ...f, [name]: value }));
   }, []);
-
+//ajout pour envoyer les données du formulaire à Google Sheets via un script Google Apps Script
 const handleSubmit = useCallback(async (e) => {
   e.preventDefault();
 
