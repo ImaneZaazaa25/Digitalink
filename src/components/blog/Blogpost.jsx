@@ -63,7 +63,7 @@ export default function BlogPost() {
       <div className={styles.breadcrumb}>
         <Link to="/" className={styles.breadLink}>Accueil</Link>
         <span className={styles.sep}>›</span>
-        <Link to="/blogs" className={styles.breadLink}>Blog</Link>
+        <Link to="/blogs" className={styles.breadLink}>Blogs</Link>
         <span className={styles.sep}>›</span>
         <span className={styles.breadCurrent}>{post.category}</span>
       </div>
@@ -171,7 +171,7 @@ export default function BlogPost() {
       </section>
 
       <div className={styles.back}>
-        <Link to="/blogs" className={styles.backLink}>Retour au blog</Link>
+        <Link to="/blogs" className={styles.backLink}>Retour aux blogs</Link>
       </div>
 
       <script type="application/ld+json" suppressHydrationWarning>

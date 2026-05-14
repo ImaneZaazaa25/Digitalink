@@ -1,0 +1,31 @@
+﻿# Digitalink.ma - LLMs Context File
+
+Site: https://digitalink.ma
+Name: Digitalink
+Type: Agence de marketing digital
+
+Description:
+Digitalink est une agence specialisee en acquisition digitale, SEO, Google Ads, Social Ads, creation de sites web, branding, content marketing, data & optimisation, CRM et marketing automation, ainsi que le recrutement de talents digitaux.
+
+Services:
+- SEO & referencement naturel
+- Google Ads & Meta Ads
+- Social media management
+- Creation de sites web & e-commerce
+- Branding & identite visuelle
+- Content marketing & copywriting
+- Tracking, data & conversion rate optimization (CRO)
+- CRM & marketing automation
+- Conseil en strategie digitale
+- Recrutement de profils digitaux
+
+Audience:
+Entreprises, e-commerce, startups, PME, marques en croissance au Maroc et a l'international.
+
+Tone:
+Professionnel, oriente performance, data-driven et oriente ROI.
+
+Key topics:
+marketing digital, acquisition, publicite en ligne, SEO, performance marketing, e-commerce, branding, automation
+
+Last updated: 2026-05-12
