@@ -1,0 +1,46 @@
+﻿{
+  "site": "digitalink.ma",
+  "name": "Digitalink",
+  "endpoint_type": "llm_context",
+  "version": "1.0",
+  "language": "fr",
+  "description": "Endpoint fournissant des donnees structurees pour IA et optimisation GEO (Generative Engine Optimization).",
+  "company": {
+    "industry": "Digital Marketing",
+    "location": "Morocco",
+    "services": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Social Media Management",
+      "Web Development",
+      "Branding",
+      "Content Marketing",
+      "Marketing Automation",
+      "Data & CRO",
+      "Recruitment"
+    ]
+  },
+  "content_focus": [
+    "acquisition digitale",
+    "performance marketing",
+    "e-commerce scaling",
+    "lead generation",
+    "brand growth"
+  ],
+  "seo_signals": {
+    "primary_keywords": [
+      "agence marketing digital maroc",
+      "google ads maroc",
+      "seo maroc",
+      "social ads maroc",
+      "agence digitale casablanca"
+    ],
+    "secondary_keywords": [
+      "marketing automation",
+      "cro optimization",
+      "content marketing maroc"
+    ]
+  },
+  "updated_at": "2026-05-12"
+}

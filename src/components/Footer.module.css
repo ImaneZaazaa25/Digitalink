@@ -1,4 +1,4 @@
-/* Footer.module.css */
+﻿/* Footer.module.css */
 
 .footer {
   border-top: 1px solid var(--border);
@@ -25,7 +25,7 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;
   text-decoration: none;
   margin-bottom: 12px;
   width: fit-content;
@@ -85,10 +85,10 @@
   color: var(--accent1);
 }
 
-/* Links grid - 4 colonnes côte à côte */
+/* Links grid - 4 colonnes cÃ´te Ã  cÃ´te */
 .linksGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);  /* 4 colonnes égales */
+  grid-template-columns: repeat(4, 1fr);  /* 4 colonnes Ã©gales */
   gap: 24px;
 }
 
@@ -110,7 +110,7 @@
   text-transform: uppercase;
   color: var(--text);
   margin-bottom: 16px;
-  white-space: nowrap;  /* Empêche le titre de se couper */
+  white-space: nowrap;  /* EmpÃªche le titre de se couper */
 }
 
 .footLink {
@@ -156,7 +156,7 @@
   }
   
   .colTitle {
-    white-space: normal;  /* Permet au titre de passer à la ligne sur tablette */
+    white-space: normal;  /* Permet au titre de passer Ã  la ligne sur tablette */
   }
 }
 
@@ -240,7 +240,7 @@
   }
   
   .linksGrid {
-    grid-template-columns: 1fr;  /* 1 colonne sur très petit mobile */
+    grid-template-columns: 1fr;  /* 1 colonne sur trÃ¨s petit mobile */
     gap: 24px;
   }
   
