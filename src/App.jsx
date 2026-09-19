@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Ticker from './components/Ticker';
 import { trackEvent } from './utils/gtm';
+import usePageSEO from './hooks/usePageSEO';
 
 const Services  = lazy(() => import('./components/Services'));
 const About     = lazy(() => import('./components/About'));
@@ -13,14 +14,14 @@ const Footer    = lazy(() => import('./components/Footer'));
 const BlogList  = lazy(() => import('./components/blog/Bloglist'));
 const BlogPost  = lazy(() => import('./components/blog/Blogpost'));
 
-// ── Scroll to top on route change ───────────────────────────
+// ── Scroll to top on route change ────────────────────────────
 function ScrollToTopOnNav() {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }
 
-// ── Scroll-to-top FAB ────────────────────────────────────────
+// ── Scroll-to-top FAB ──────────────────────────────────────
 function ScrollToTop() {
   const [visible, setVisible] = useState(false);
   useEffect(() => {
@@ -50,9 +51,13 @@ function ScrollToTop() {
   );
 }
 
-// ── Page principale ──────────────────────────────────────────
+// ── Page principale ─────────────────────────────────────
 // Le lien "Contact" du Navbar scrolle vers #contact sur cette page
 function HomePage() {
+  usePageSEO(
+    'Agence de Communication Digitale à Casablanca | Digitalink',
+    "Digitalink accompagne les entreprises marocaines en stratégie digitale, branding et communication. Devis gratuit."
+  );
   return (
     <main>
       <Hero />
@@ -70,8 +75,12 @@ function HomePage() {
   );
 }
 
-// ── Page À propos ────────────────────────────────────────────
+// ── Page À propos ────────────────────────────────────
 function AboutPage() {
+  usePageSEO(
+    'Qui sommes-nous ? Agence Digitalink Maroc',
+    "Découvrez l'équipe et l'expertise de Digitalink, agence de conseil en stratégie digitale et communication basée à Casablanca."
+  );
   return (
     <main>
       <Suspense fallback={<div style={{ height: 200 }} />}>
@@ -84,9 +93,16 @@ function AboutPage() {
 
 // ── Page Contact (standalone, lien footer) ───────────────────
 function ContactPage() {
+  usePageSEO(
+    'Contactez Digitalink | Agence Communication Digitale Casablanca',
+    'Un projet de communication digitale ou de branding ? Contactez notre agence à Casablanca, réponse sous 24h.'
+  );
   return (
     <main>
       <Suspense fallback={<div style={{ height: 200 }} />}>
+        <h1 style={{ textAlign: 'center', maxWidth: 800, margin: '2.5rem auto 0', fontSize: '2rem', fontWeight: 700 }}>
+          Contactez Notre Agence de Communication Digitale à Casablanca
+        </h1>
         <Contact />
         <Footer />
       </Suspense>
@@ -94,7 +110,7 @@ function ContactPage() {
   );
 }
 
-// ── Page Blog (liste des articles) ──────────────────────────
+// ── Page Blog (liste des articles) ─────────────────────
 function BlogPage() {
   return (
     <main>
@@ -106,7 +122,7 @@ function BlogPage() {
   );
 }
 
-// ── Page article de blog ─────────────────────────────────────
+// ── Page article de blog ────────────────────────
 function BlogPostPage() {
   return (
     <main>
@@ -118,7 +134,7 @@ function BlogPostPage() {
   );
 }
 
-// ── Root ─────────────────────────────────────────────────────
+// ── Root ───────────────────────────────────────────────────────────────────
 export default function App() {
   return (
     <BrowserRouter>

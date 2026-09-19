@@ -48,9 +48,9 @@ export default function About() {
         >
           <span className={styles.eyebrow}>À propos de nous</span>
 
-          <h2 className={styles.title}>
+          <h1 className={styles.title}>
             Votre partenaire <span className="grad-text">digital</span> à Casablanca
-          </h2>
+          </h1>
 
           <p className={styles.body}>
             Fondée en 2020, Digitalink est une agence de marketing digital basée à Casablanca,
