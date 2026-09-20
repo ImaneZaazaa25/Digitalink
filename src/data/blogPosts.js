@@ -1,5 +1,68 @@
 ﻿export const BLOG_POSTS = [
   {
+    slug: 'choisir-agence-communication-digitale-casablanca',
+    title: 'Comment choisir son agence de communication digitale à Casablanca (guide 2026)',
+    metaTitle: 'Choisir son agence de communication digitale à Casablanca | Guide 2026',
+    metaDescription:
+      'Les critères essentiels pour choisir une agence de communication digitale à Casablanca : expertise, transparence, résultats et connaissance du marché marocain.',
+    excerpt:
+      'Le guide pratique pour choisir la bonne agence de communication digitale à Casablanca, sans se tromper.',
+    category: 'Stratégie',
+    date: '2026-09-20',
+    readTime: '7 min',
+    tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
+    cover: null,
+    related: [
+      { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
+      { title: 'Demander un audit digital gratuit', href: '/contact' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi bien choisir son agence de communication digitale ?',
+        paragraphs: [
+          "Le marché marocain de la communication digitale connaît une croissance rapide, portée par l'essor du e-commerce, des réseaux sociaux et de la publicité en ligne à Casablanca et dans les grandes villes du royaume.",
+          "Face à la multiplication des agences, choisir le bon partenaire devient déterminant : une agence mal alignée avec vos objectifs peut coûter cher en temps, en budget et en opportunités manquées.",
+        ],
+      },
+      {
+        id: 'criteres',
+        heading: 'Les critères essentiels à vérifier avant de signer',
+        paragraphs: [
+          "Voici les points à examiner en priorité avant de vous engager avec une agence de communication digitale à Casablanca.",
+        ],
+        bullets: [
+          'Un portefeuille de références vérifiables, avec des résultats chiffrés',
+          "Une expertise réellement multicanale : SEA, SEO, réseaux sociaux, branding, e-commerce",
+          "Une transparence totale sur les indicateurs de performance (pas seulement des rapports d'activité)",
+          "Une connaissance fine du marché marocain : habitudes des consommateurs, plateformes locales, saisonnalité",
+          "Un accompagnement humain et réactif, avec un interlocuteur dédié",
+          "Une offre évolutive, capable de s'adapter à la croissance de votre entreprise",
+        ],
+      },
+      {
+        id: 'signaux-alerte',
+        heading: "Les signaux d'alerte à ne pas ignorer",
+        paragraphs: [
+          "Certains signes doivent vous alerter avant de vous engager sur un contrat, souvent annuel, avec une agence.",
+        ],
+        bullets: [
+          'Des promesses de résultats garantis en quelques jours seulement',
+          "L'absence de reporting régulier ou de chiffres concrets",
+          "Un contrat rigide, sans période d'essai ni clause de sortie",
+          "Une communication uniquement par email, sans échange direct possible",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, notre approche 360° combine stratégie data-driven, créativité et expertise du marché marocain, avec une transparence totale sur les résultats. Contactez-nous pour un audit gratuit de votre présence digitale.",
+        ],
+      },
+    ],
+  },
+  {
     slug: 'sea-guide-publicite-digitale-2026',
     title: 'SEA : Tout guide de la publicite digitale a connaitre en 2026',
     metaTitle: 'SEA 2026 : Guide complet Google Ads, Meta Ads, TikTok & Pinterest',
