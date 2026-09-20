@@ -1,31 +1,25 @@
-﻿# Digitalink.ma - LLMs Context File
+# Digitalink
 
-Site: https://digitalink.ma
-Name: Digitalink
-Type: Agence de marketing digital
+> Digitalink est une agence de communication digitale et de marketing basée à Casablanca, Maroc. Nous accompagnons les entreprises marocaines et internationales dans leur stratégie digitale : SEA, SEO, réseaux sociaux, branding, sites web et e-commerce.
 
-Description:
-Digitalink est une agence specialisee en acquisition digitale, SEO, Google Ads, Social Ads, creation de sites web, branding, content marketing, data & optimisation, CRM et marketing automation, ainsi que le recrutement de talents digitaux.
+Fondée en 2020, Digitalink combine stratégie data-driven, créativité et expertise technique pour générer une croissance mesurable pour ses clients.
 
-Services:
-- SEO & referencement naturel
-- Google Ads & Meta Ads
-- Social media management
-- Creation de sites web & e-commerce
-- Branding & identite visuelle
-- Content marketing & copywriting
-- Tracking, data & conversion rate optimization (CRO)
-- CRM & marketing automation
-- Conseil en strategie digitale
-- Recrutement de profils digitaux
+## Pages principales
 
-Audience:
-Entreprises, e-commerce, startups, PME, marques en croissance au Maroc et a l'international.
+- [Accueil](https://digitalink.ma/): présentation de l'agence et de ses services
+- [À propos](https://digitalink.ma/about-us): l'équipe et l'expertise de Digitalink
+- [Contact](https://digitalink.ma/contact): demander un devis ou un audit gratuit
+- [Blog](https://digitalink.ma/blogs): guides et stratégies sur le marketing digital
 
-Tone:
-Professionnel, oriente performance, data-driven et oriente ROI.
+## Articles de blog
 
-Key topics:
-marketing digital, acquisition, publicite en ligne, SEO, performance marketing, e-commerce, branding, automation
+- [Comment choisir son agence de communication digitale à Casablanca](https://digitalink.ma/blogs/choisir-agence-communication-digitale-casablanca)
+- [SEA : guide complet de la publicité digitale 2026](https://digitalink.ma/blogs/sea-guide-publicite-digitale-2026)
+- [Stratégie SEO : les 5 leviers incontournables](https://digitalink.ma/blogs/strategie-seo-2025)
+- [Google Ads : doubler son ROAS](https://digitalink.ma/blogs/ads-google-roas)
+- [Landing page : 7 éléments pour mieux convertir](https://digitalink.ma/blogs/landing-page-conversion)
+- [Email marketing automation](https://digitalink.ma/blogs/email-marketing-automation)
 
-Last updated: 2026-05-12
+## Contact
+
+Téléphone : +212 660 385 276
