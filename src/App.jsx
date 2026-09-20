@@ -51,12 +51,13 @@ function ScrollToTop() {
   );
 }
 
-// ── Page principale ─────────────────────────────────────
+// ── Page principale ───────────────────────────────────────────
 // Le lien "Contact" du Navbar scrolle vers #contact sur cette page
 function HomePage() {
   usePageSEO(
     'Agence de Communication Digitale à Casablanca | Digitalink',
-    "Digitalink accompagne les entreprises marocaines en stratégie digitale, branding et communication. Devis gratuit."
+    "Digitalink accompagne les entreprises marocaines en stratégie digitale, branding et communication. Devis gratuit.",
+    '/'
   );
   return (
     <main>
@@ -75,11 +76,12 @@ function HomePage() {
   );
 }
 
-// ── Page À propos ────────────────────────────────────
+// ── Page À propos ──────────────────────────────────────────
 function AboutPage() {
   usePageSEO(
     'Qui sommes-nous ? Agence Digitalink Maroc',
-    "Découvrez l'équipe et l'expertise de Digitalink, agence de conseil en stratégie digitale et communication basée à Casablanca."
+    "Découvrez l'équipe et l'expertise de Digitalink, agence de conseil en stratégie digitale et communication basée à Casablanca.",
+    '/about-us'
   );
   return (
     <main>
@@ -95,7 +97,8 @@ function AboutPage() {
 function ContactPage() {
   usePageSEO(
     'Contactez Digitalink | Agence Communication Digitale Casablanca',
-    'Un projet de communication digitale ou de branding ? Contactez notre agence à Casablanca, réponse sous 24h.'
+    'Un projet de communication digitale ou de branding ? Contactez notre agence à Casablanca, réponse sous 24h.',
+    '/contact'
   );
   return (
     <main>
@@ -110,7 +113,7 @@ function ContactPage() {
   );
 }
 
-// ── Page Blog (liste des articles) ─────────────────────
+// ── Page Blog (liste des articles) ────────────────────────────
 function BlogPage() {
   return (
     <main>
@@ -122,7 +125,7 @@ function BlogPage() {
   );
 }
 
-// ── Page article de blog ────────────────────────
+// ── Page article de blog ────────────────────────────────────────
 function BlogPostPage() {
   return (
     <main>
