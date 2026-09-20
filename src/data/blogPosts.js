@@ -11,7 +11,7 @@
     date: '2026-09-20',
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
-    cover: null,
+    cover: '/images/blog/choisir-agence-cover.svg',
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
       { title: 'Demander un audit digital gratuit', href: '/contact' },
