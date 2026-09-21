@@ -63,6 +63,10 @@ export default function About() {
             Notre approche 360° garantit une cohérence parfaite entre tous vos canaux digitaux.
           </p>
 
+          <p className={styles.body}>
+            À Casablanca comme dans tout le Maroc, nous accompagnons les entreprises qui cherchent une agence de communication digitale capable de conjuguer stratégie, créativité et résultats mesurables. En tant qu'agence digitale marocaine reconnue pour son expertise locale, nous adaptons chaque stratégie de marketing digital au marché national tout en gardant une vision internationale.
+          </p>
+
           {/* CONTACT */}
           <div className={styles.contact}>
             <a href="tel:+212660385276" className={styles.contactItem}>
