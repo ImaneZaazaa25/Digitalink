@@ -12,6 +12,7 @@
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
     cover: '/images/blog/choisir-agence-cover.svg',
+    coverAlt: 'Logo Digitalink, agence de marketing digital, sur fond bleu nuit avec la signature Growth. Performance. Results.',
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
       { title: 'Demander un audit digital gratuit', href: '/contact' },
@@ -58,6 +59,68 @@
         heading: 'Conclusion',
         paragraphs: [
           "Chez Digitalink, notre approche 360° combine stratégie data-driven, créativité et expertise du marché marocain, avec une transparence totale sur les résultats. Contactez-nous pour un audit gratuit de votre présence digitale.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'branding-identite-marque-maroc',
+    title: 'Branding : construire une identité de marque forte au Maroc',
+    metaTitle: 'Branding au Maroc : construire une identité de marque forte',
+    metaDescription:
+      "Guide pratique pour construire une identité de marque forte et cohérente au Maroc : positionnement, charte graphique, ton de voix et déclinaisons digitales.",
+    excerpt:
+      "Comment construire une identité de marque cohérente et mémorable pour se démarquer sur le marché marocain.",
+    category: 'Branding',
+    date: '2026-09-23',
+    readTime: '6 min',
+    tags: ['Branding', 'Identité de marque', 'Maroc', 'Stratégie digitale'],
+    cover: null,
+    related: [
+      { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
+      { title: 'Demander un audit de marque gratuit', href: '/contact' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi le branding est stratégique au Maroc',
+        paragraphs: [
+          "Sur un marché marocain de plus en plus concurrentiel, une identité de marque forte est ce qui permet à une entreprise de se démarquer durablement, au-delà du simple logo ou de la charte graphique.",
+          "Le branding est la somme de tous les signaux qu'une entreprise envoie : nom, visuel, ton de voix, expérience client. Une marque cohérente inspire confiance et facilite la mémorisation.",
+        ],
+      },
+      {
+        id: 'piliers',
+        heading: "Les piliers d'une identité de marque forte",
+        paragraphs: [
+          "Construire une identité de marque solide repose sur quelques fondamentaux à ne pas négliger.",
+        ],
+        bullets: [
+          'Un positionnement clair : à qui vous vous adressez et pourquoi vous êtes différent',
+          "Une identité visuelle cohérente : logo, couleurs, typographie déclinés sur tous les supports",
+          "Un ton de voix reconnaissable, adapté à votre audience et à la culture locale",
+          "Une expérience de marque cohérente entre le digital, le physique et le service client",
+          "Une histoire de marque authentique qui crée un lien émotionnel avec vos clients",
+        ],
+      },
+      {
+        id: 'erreurs',
+        heading: 'Les erreurs fréquentes à éviter',
+        paragraphs: [
+          "Certaines erreurs reviennent souvent chez les entreprises qui se lancent dans une refonte de marque.",
+        ],
+        bullets: [
+          "Changer de visuel sans stratégie de positionnement derrière",
+          "Copier les codes visuels de la concurrence plutôt que se différencier",
+          "Une identité incohérente entre le site web, les réseaux sociaux et les supports imprimés",
+          "Négliger la déclinaison mobile et digitale de la charte graphique",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, nous accompagnons les entreprises marocaines dans la construction d'une identité de marque forte, cohérente avec leur stratégie digitale globale. Contactez-nous pour un audit de marque gratuit.",
         ],
       },
     ],
