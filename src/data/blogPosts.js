@@ -11,8 +11,8 @@
     date: '2026-09-20',
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
-    cover: '/images/blog/choisir-agence-cover.svg',
-    coverAlt: 'Logo Digitalink, agence de marketing digital, sur fond bleu nuit avec la signature Growth. Performance. Results.',
+    cover: '/images/blog/choisir-agence-cover.jpg',
+    coverAlt: "Illustration de stratégie digitale à Casablanca avec silhouette de la ville, graphiques de croissance et icônes réseaux sociaux.",
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
       { title: 'Demander un audit digital gratuit', href: '/contact' },
@@ -75,7 +75,8 @@
     date: '2026-09-23',
     readTime: '6 min',
     tags: ['Branding', 'Identité de marque', 'Maroc', 'Stratégie digitale'],
-    cover: null,
+    cover: '/images/blog/branding-cover.jpg',
+    coverAlt: "Guide d'identité de marque avec moodboard, palette de couleurs et motifs marocains, style luxe et patrimoine.",
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
       { title: 'Demander un audit de marque gratuit', href: '/contact' },
@@ -126,6 +127,574 @@
     ],
   },
   {
+    slug: 'site-web-vs-ecommerce-maroc',
+    title: 'Site web vs e-commerce : que choisir pour son business au Maroc ?',
+    metaTitle: 'Site web ou e-commerce au Maroc : lequel choisir ?',
+    metaDescription:
+      "Site vitrine ou boutique e-commerce ? Le guide pour choisir la bonne solution digitale selon votre activité au Maroc.",
+    excerpt:
+      "Site vitrine, e-commerce ou marketplace : comment choisir la bonne solution digitale pour votre business au Maroc.",
+    category: 'Stratégie',
+    date: '2026-09-26',
+    readTime: '6 min',
+    tags: ['Site Web', 'E-commerce', 'Maroc', 'Stratégie digitale'],
+    cover: '/images/blog/site-web-vs-ecommerce-maroc-cover.svg',
+    coverAlt: "Illustration d'un site e-commerce avec panier d'achat, sur fond dégradé violet-bleu aux couleurs Digitalink.",
+    related: [
+      { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
+      { title: 'Demander un audit de votre projet digital', href: '/contact' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Site vitrine ou e-commerce : une question de stratégie',
+        paragraphs: [
+          "Beaucoup d'entrepreneurs marocains se posent la même question au moment de lancer leur présence en ligne : faut-il un simple site vitrine, ou directement une boutique e-commerce complète ?",
+          "La réponse dépend moins de la technologie que de votre modèle économique, de votre capacité logistique et de vos objectifs commerciaux à court et moyen terme.",
+        ],
+      },
+      {
+        id: 'site-vitrine',
+        heading: 'Quand choisir un site vitrine',
+        paragraphs: [
+          "Le site vitrine reste pertinent dans plusieurs cas de figure.",
+        ],
+        bullets: [
+          "Vous vendez un service (agence, cabinet, artisan) plutôt que des produits physiques",
+          "Votre cycle de vente passe par un contact humain (devis, rendez-vous, appel)",
+          "Vous voulez asseoir votre crédibilité avant de générer du trafic payant",
+          "Votre budget initial est limité et vous voulez tester le marché rapidement",
+        ],
+      },
+      {
+        id: 'ecommerce',
+        heading: 'Quand investir dans une boutique e-commerce',
+        paragraphs: [
+          "L'e-commerce devient pertinent dès que certaines conditions sont réunies.",
+        ],
+        bullets: [
+          "Vous vendez des produits physiques ou numériques en quantité",
+          "Vous avez une chaîne logistique capable de livrer partout au Maroc",
+          "Vous voulez automatiser les ventes sans intervention humaine à chaque commande",
+          "Votre marché cible est déjà habitué à l'achat en ligne (mode, électronique, beauté)",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, nous accompagnons les entreprises marocaines dans le choix et la mise en place de la solution digitale la plus adaptée à leur activité, du site vitrine à la boutique e-commerce complète. Contactez-nous pour évaluer votre projet gratuitement.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'marketing-influence-maroc',
+    title: "Marketing d'influence au Maroc : guide pour les marques",
+    metaTitle: "Marketing d'influence au Maroc : guide complet pour les marques",
+    metaDescription:
+      "Comment construire une stratégie de marketing d'influence efficace au Maroc : choix des créateurs, budget, KPIs et erreurs à éviter.",
+    excerpt:
+      "Le guide pour lancer une campagne d'influence marketing rentable et adaptée au marché marocain.",
+    category: 'Réseaux Sociaux',
+    date: '2026-09-29',
+    readTime: '6 min',
+    tags: ["Marketing d'influence", 'Réseaux Sociaux', 'Maroc'],
+    cover: '/images/blog/marketing-influence-maroc-cover.svg',
+    coverAlt: "Illustration d'un créateur de contenu avec halo, symbolisant le marketing d'influence, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Demander un audit réseaux sociaux gratuit', href: '/contact' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Pourquoi le marketing d'influence fonctionne au Maroc",
+        paragraphs: [
+          "Le marketing d'influence s'est imposé au Maroc comme un levier incontournable, porté par une audience jeune et très active sur Instagram et TikTok.",
+          "Contrairement à la publicité classique, l'influence marketing s'appuie sur la confiance déjà établie entre un créateur de contenu et sa communauté.",
+        ],
+      },
+      {
+        id: 'choisir-influenceurs',
+        heading: 'Comment choisir les bons créateurs',
+        paragraphs: [
+          "Le choix des influenceurs ne doit pas se limiter au nombre d'abonnés.",
+        ],
+        bullets: [
+          "Vérifier le taux d'engagement réel, pas seulement la taille de l'audience",
+          "Privilégier la cohérence entre l'univers du créateur et votre marque",
+          "Analyser la qualité de la communauté (localisation, âge, centres d'intérêt)",
+          "Tester avec des micro-influenceurs avant d'investir sur des profils à forte audience",
+        ],
+      },
+      {
+        id: 'kpis',
+        heading: 'Mesurer le retour sur investissement',
+        paragraphs: [
+          "Une campagne d'influence doit être mesurée comme n'importe quel autre levier marketing.",
+        ],
+        bullets: [
+          "Portée et impressions générées",
+          "Taux d'engagement (likes, commentaires, partages)",
+          "Trafic généré vers le site (liens trackés, codes promo)",
+          "Conversions et ventes attribuées à la campagne",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, nous aidons les marques marocaines à structurer des campagnes d'influence mesurables, du choix des créateurs jusqu'au reporting final. Contactez-nous pour en discuter.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'social-media-management-strategie',
+    title: 'Social Media Management : construire une stratégie Instagram/TikTok qui engage',
+    metaTitle: 'Social Media Management : stratégie Instagram et TikTok qui engage',
+    metaDescription:
+      "Comment construire une stratégie de gestion des réseaux sociaux efficace sur Instagram et TikTok pour les marques marocaines.",
+    excerpt:
+      "Les fondamentaux d'une stratégie social media qui génère de l'engagement réel, pas juste des vues.",
+    category: 'Réseaux Sociaux',
+    date: '2026-10-02',
+    readTime: '6 min',
+    tags: ['Social Media', 'Instagram', 'TikTok', 'Maroc'],
+    cover: '/images/blog/social-media-management-strategie-cover.svg',
+    coverAlt: "Illustration d'une bulle de message représentant la gestion des réseaux sociaux, sur fond dégradé Digitalink.",
+    related: [
+      { title: "Marketing d'influence au Maroc", href: '/blogs/marketing-influence-maroc' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi une vraie stratégie social media est indispensable',
+        paragraphs: [
+          "Publier régulièrement ne suffit plus. Les algorithmes d'Instagram et TikTok favorisent le contenu qui génère de l'engagement réel, pas seulement de la fréquence de publication.",
+        ],
+      },
+      {
+        id: 'piliers-contenu',
+        heading: 'Les piliers de contenu à définir',
+        paragraphs: [
+          "Une stratégie social media efficace repose sur un équilibre entre plusieurs types de contenu.",
+        ],
+        bullets: [
+          "Contenu éducatif : conseils, astuces liés à votre secteur",
+          "Contenu de preuve sociale : avis clients, résultats, coulisses",
+          "Contenu de divertissement : formats courts, tendances TikTok adaptées",
+          "Contenu commercial : offres, nouveautés, appels à l'action",
+        ],
+      },
+      {
+        id: 'engagement',
+        heading: "Ce qui génère vraiment de l'engagement",
+        paragraphs: [
+          "Le format compte autant que le fond.",
+        ],
+        bullets: [
+          "Les 3 premières secondes d'une vidéo déterminent si l'audience continue à regarder",
+          "Les questions et sondages en story augmentent les interactions directes",
+          "Répondre aux commentaires renforce l'algorithme en votre faveur",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink accompagne les marques marocaines dans la création et la gestion de leur présence sociale, avec une stratégie de contenu pensée pour l'engagement, pas juste la visibilité.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'strategie-acquisition-multicanale-2026',
+    title: 'Stratégie d\'acquisition multicanale : les leviers à combiner en 2026',
+    metaTitle: 'Stratégie d\'acquisition multicanale 2026 : les leviers à combiner',
+    metaDescription:
+      "Comment combiner SEO, SEA, réseaux sociaux et email pour une stratégie d'acquisition digitale performante en 2026.",
+    excerpt:
+      "Pourquoi miser sur un seul canal d'acquisition est risqué, et comment construire une stratégie multicanale cohérente.",
+    category: 'Stratégie',
+    date: '2026-10-05',
+    readTime: '7 min',
+    tags: ['Acquisition', 'Stratégie digitale', 'Multicanal'],
+    cover: '/images/blog/strategie-acquisition-multicanale-2026-cover.svg',
+    coverAlt: "Illustration d'un entonnoir d'acquisition multicanal, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'SEA : guide complet de la publicité digitale 2026', href: '/blogs/sea-guide-publicite-digitale-2026' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi un seul canal ne suffit plus',
+        paragraphs: [
+          "Dépendre d'un seul canal d'acquisition (uniquement SEO, ou uniquement publicité) expose une entreprise à un risque réel : un changement d'algorithme ou une hausse des coûts publicitaires peut fragiliser toute l'activité.",
+        ],
+      },
+      {
+        id: 'leviers',
+        heading: 'Les leviers à combiner',
+        paragraphs: [
+          "Une stratégie multicanale équilibrée combine généralement plusieurs de ces leviers.",
+        ],
+        bullets: [
+          "SEO : trafic durable et gratuit sur le long terme",
+          "SEA (Google Ads, Meta Ads) : résultats rapides et mesurables",
+          "Réseaux sociaux organiques : notoriété et fidélisation",
+          "Email marketing : conversion et rétention à faible coût",
+        ],
+      },
+      {
+        id: 'priorisation',
+        heading: 'Comment prioriser selon votre budget',
+        paragraphs: [
+          "Sans budget publicitaire important, mieux vaut d'abord investir dans le SEO et le contenu organique, puis ajouter le SEA une fois la base établie. Avec un budget confortable, le SEA permet d'accélérer pendant que le SEO se construit en parallèle.",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, nous construisons des stratégies d'acquisition multicanales adaptées au budget et aux objectifs de chaque entreprise marocaine. Contactez-nous pour un plan personnalisé.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'seo-local-casablanca',
+    title: 'SEO local : comment ranker sur "à Casablanca" et "au Maroc"',
+    metaTitle: 'SEO local Casablanca : comment ranker sur les recherches locales',
+    metaDescription:
+      "Guide pratique de SEO local pour être visible sur Google Maps et les recherches géolocalisées à Casablanca et au Maroc.",
+    excerpt:
+      "Les leviers spécifiques au SEO local pour apparaître dans les recherches géolocalisées à Casablanca.",
+    category: 'SEO',
+    date: '2026-10-08',
+    readTime: '6 min',
+    tags: ['SEO local', 'Casablanca', 'Google Maps', 'Maroc'],
+    cover: '/images/blog/seo-local-casablanca-cover.svg',
+    coverAlt: "Illustration d'un repère de localisation représentant le SEO local à Casablanca, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Stratégie SEO : les 5 leviers incontournables', href: '/blogs/strategie-seo-2025' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Le SEO local, différent du SEO classique',
+        paragraphs: [
+          "Quand un client tape \"agence digitale près de moi\" ou \"à Casablanca\", Google affiche des résultats différents du SEO national classique : le pack local (carte + 3 fiches), puis les résultats organiques.",
+        ],
+      },
+      {
+        id: 'leviers-locaux',
+        heading: 'Les leviers spécifiques au SEO local',
+        paragraphs: [
+          "Plusieurs facteurs pèsent particulièrement sur le classement local.",
+        ],
+        bullets: [
+          "Une fiche Google Business Profile complète et régulièrement mise à jour",
+          "Des avis clients récents et des réponses aux avis",
+          "La cohérence du nom, adresse, téléphone (NAP) sur tout le web",
+          "Des mentions locales (citations) sur des annuaires et sites marocains",
+          "Du contenu qui mentionne explicitement les villes et quartiers ciblés",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Le SEO local est souvent le levier le plus rapide à activer pour une entreprise avec une clientèle locale. Digitalink accompagne les entreprises marocaines dans l'optimisation complète de leur présence locale.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'marketing-automation-crm-maroc',
+    title: 'Marketing automation : les CRM et outils adaptés au marché marocain',
+    metaTitle: 'Marketing automation au Maroc : quels CRM et outils choisir',
+    metaDescription:
+      "Comparatif des outils de marketing automation et CRM adaptés aux entreprises marocaines, selon budget et besoins.",
+    excerpt:
+      "Comment choisir le bon outil de marketing automation selon la taille et les besoins de votre entreprise au Maroc.",
+    category: 'Email',
+    date: '2026-10-11',
+    readTime: '6 min',
+    tags: ['Marketing Automation', 'CRM', 'Maroc'],
+    cover: '/images/blog/marketing-automation-crm-maroc-cover.svg',
+    coverAlt: "Illustration d'un engrenage représentant l'automatisation marketing et CRM, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Email marketing automation', href: '/blogs/email-marketing-automation' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Pourquoi automatiser sa relation client",
+        paragraphs: [
+          "Le marketing automation permet d'envoyer le bon message, à la bonne personne, au bon moment, sans intervention manuelle répétée. C'est un gain de temps considérable pour les équipes marketing marocaines, souvent réduites.",
+        ],
+      },
+      {
+        id: 'criteres-choix',
+        heading: "Critères pour choisir son outil",
+        paragraphs: [
+          "Le choix d'un CRM ou outil d'automation dépend surtout de la taille de l'entreprise et du budget disponible.",
+        ],
+        bullets: [
+          "Petite structure : privilégier un outil simple, tout-en-un, à budget limité",
+          "PME en croissance : un CRM avec segmentation avancée et intégrations e-commerce",
+          "Grande entreprise : une plateforme complète avec workflows complexes et reporting poussé",
+          "Vérifier la compatibilité avec les moyens de paiement et messageries locales (WhatsApp Business)",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink aide les entreprises marocaines à choisir et paramétrer l'outil de marketing automation le plus adapté à leur activité, sans surinvestir dans des fonctionnalités inutiles.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'google-ads-vs-meta-ads',
+    title: 'Google Ads vs Meta Ads : lequel choisir selon votre budget',
+    metaTitle: 'Google Ads ou Meta Ads : lequel choisir selon votre budget',
+    metaDescription:
+      "Comparatif Google Ads vs Meta Ads : différences, avantages et comment choisir selon votre secteur et budget publicitaire.",
+    excerpt:
+      "Les vraies différences entre Google Ads et Meta Ads, pour orienter votre premier budget publicitaire.",
+    category: 'Publicité',
+    date: '2026-10-14',
+    readTime: '6 min',
+    tags: ['Google Ads', 'Meta Ads', 'SEA'],
+    cover: '/images/blog/google-ads-vs-meta-ads-cover.svg',
+    coverAlt: "Illustration de deux cercles superposés représentant la comparaison Google Ads et Meta Ads, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Google Ads : doubler son ROAS sans augmenter le budget', href: '/blogs/ads-google-roas' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Deux logiques publicitaires différentes',
+        paragraphs: [
+          "Google Ads capte une demande déjà existante : l'utilisateur cherche activement une solution. Meta Ads (Facebook, Instagram) crée de la demande : l'utilisateur découvre votre offre pendant qu'il navigue, sans l'avoir cherchée.",
+        ],
+      },
+      {
+        id: 'quand-choisir',
+        heading: 'Quand privilégier l\'un ou l\'autre',
+        paragraphs: [
+          "Le choix dépend de votre secteur et de votre objectif.",
+        ],
+        bullets: [
+          "Google Ads : idéal pour les besoins urgents ou récurrents (services, dépannage, B2B)",
+          "Meta Ads : idéal pour les produits visuels, impulsifs ou nouveaux sur le marché",
+          "Avec un budget limité, tester un seul canal en profondeur plutôt que diviser sur les deux",
+          "Avec un budget confortable, combiner les deux à des étapes différentes du parcours client",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink aide les entreprises marocaines à choisir la bonne plateforme publicitaire, et surtout à l'optimiser une fois lancée. Contactez-nous pour un audit de vos campagnes.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'tendances-marketing-digital-maroc-2026',
+    title: 'Les tendances marketing digital au Maroc en 2026',
+    metaTitle: 'Tendances marketing digital Maroc 2026',
+    metaDescription:
+      "Les principales tendances du marketing digital au Maroc en 2026 : IA, vidéo courte, SEO local et marketing d'influence.",
+    excerpt:
+      "Un tour d'horizon des tendances qui façonnent le marketing digital marocain cette année.",
+    category: 'Stratégie',
+    date: '2026-10-17',
+    readTime: '6 min',
+    tags: ['Tendances', 'Marketing Digital', 'Maroc', '2026'],
+    cover: '/images/blog/tendances-marketing-digital-maroc-2026-cover.svg',
+    coverAlt: "Illustration d'une courbe de tendance ascendante représentant les tendances marketing digital 2026, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Un marché marocain en pleine maturation',
+        paragraphs: [
+          "Le marketing digital marocain continue de se professionnaliser, porté par une adoption croissante des réseaux sociaux et une meilleure structuration des budgets publicitaires des entreprises locales.",
+        ],
+      },
+      {
+        id: 'tendances',
+        heading: 'Les tendances à surveiller',
+        paragraphs: [
+          "Plusieurs dynamiques marquent le marché cette année.",
+        ],
+        bullets: [
+          "L'IA générative utilisée pour la création de contenu et l'optimisation des campagnes",
+          "La vidéo courte (TikTok, Reels) devient centrale, y compris pour les marques B2B",
+          "Le SEO local prend de l'ampleur avec la digitalisation des PME marocaines",
+          "Le marketing d'influence se professionnalise, avec des contrats et des KPIs plus clairs",
+          "La confidentialité des données pousse vers une first-party data plus structurée",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink suit ces évolutions de près pour proposer à ses clients des stratégies toujours alignées avec les usages réels du marché marocain.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'auditer-site-avant-campagne-sea',
+    title: 'Comment auditer son site avant de lancer une campagne SEA',
+    metaTitle: 'Auditer son site avant une campagne SEA : la check-list',
+    metaDescription:
+      "Les points essentiels à vérifier sur votre site avant de lancer une campagne Google Ads ou Meta Ads, pour ne pas gaspiller votre budget.",
+    excerpt:
+      "Lancer une campagne publicitaire vers un site mal préparé, c'est gaspiller son budget. Voici la check-list avant de démarrer.",
+    category: 'Publicité',
+    date: '2026-10-20',
+    readTime: '5 min',
+    tags: ['SEA', 'Audit', 'Conversion'],
+    cover: '/images/blog/auditer-site-avant-campagne-sea-cover.svg',
+    coverAlt: "Illustration d'une check-list validée représentant l'audit de site avant une campagne SEA, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Landing page : 7 éléments pour mieux convertir', href: '/blogs/landing-page-conversion' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi auditer avant de payer pour du trafic',
+        paragraphs: [
+          "Envoyer du trafic payant vers un site lent, mal structuré ou sans page dédiée revient à jeter une partie du budget publicitaire. Un audit rapide avant le lancement évite ce gaspillage.",
+        ],
+      },
+      {
+        id: 'checklist',
+        heading: 'La check-list avant de lancer',
+        paragraphs: [
+          "Voici les points à vérifier systématiquement.",
+        ],
+        bullets: [
+          "Vitesse de chargement de la page de destination (mobile en priorité)",
+          "Présence d'une landing page dédiée à l'offre, pas seulement la page d'accueil",
+          "Formulaire de contact simple et fonctionnel, testé de bout en bout",
+          "Tracking des conversions correctement installé (Google Tag Manager, pixels)",
+          "Cohérence entre le message de l'annonce et le contenu de la page",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink réalise cet audit avant chaque lancement de campagne pour ses clients, afin de maximiser le retour sur investissement dès le premier jour.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'quelle-plateforme-sociale-par-secteur',
+    title: 'Réseaux sociaux : quelle plateforme pour quel secteur d\'activité',
+    metaTitle: 'Quel réseau social choisir selon votre secteur d\'activité',
+    metaDescription:
+      "Guide pour choisir la ou les bonnes plateformes sociales (Instagram, TikTok, LinkedIn, Facebook) selon votre secteur d'activité.",
+    excerpt:
+      "Toutes les marques n'ont pas besoin d'être partout : voici quelle plateforme privilégier selon votre secteur.",
+    category: 'Réseaux Sociaux',
+    date: '2026-10-23',
+    readTime: '5 min',
+    tags: ['Réseaux Sociaux', 'Stratégie digitale'],
+    cover: '/images/blog/quelle-plateforme-sociale-par-secteur-cover.svg',
+    coverAlt: "Illustration d'une grille d'icônes représentant le choix de plateforme sociale par secteur, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Social Media Management : stratégie Instagram/TikTok', href: '/blogs/social-media-management-strategie' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Être partout n\'est pas une stratégie',
+        paragraphs: [
+          "Beaucoup d'entreprises se dispersent sur tous les réseaux sociaux sans réelle stratégie, ce qui dilue les efforts. Mieux vaut être excellent sur une ou deux plateformes pertinentes que médiocre partout.",
+        ],
+      },
+      {
+        id: 'par-secteur',
+        heading: 'Quelle plateforme selon votre secteur',
+        paragraphs: [
+          "Quelques repères généraux pour orienter votre choix.",
+        ],
+        bullets: [
+          "B2B et services professionnels : LinkedIn en priorité",
+          "Mode, beauté, food : Instagram et TikTok",
+          "Immobilier, automobile : Facebook (audience large, recherche active)",
+          "Marques lifestyle jeunes : TikTok en priorité",
+          "Artisanat, décoration : Instagram et Pinterest",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink aide chaque entreprise à identifier les plateformes réellement pertinentes pour son audience, plutôt que de suivre les tendances sans stratégie derrière.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'agence-seo-vs-agence-communication-digitale',
+    title: 'Agence SEO vs agence de communication digitale : quelle différence ?',
+    metaTitle: 'Agence SEO ou agence de communication digitale : quelle différence',
+    metaDescription:
+      "Comprendre la différence entre une agence SEO spécialisée et une agence de communication digitale généraliste, pour bien choisir.",
+    excerpt:
+      "Deux types d'agences souvent confondus : voici ce qui les distingue réellement, et comment choisir selon vos besoins.",
+    category: 'Stratégie',
+    date: '2026-10-26',
+    readTime: '5 min',
+    tags: ['Agence SEO', 'Agence Digitale', 'Comparatif'],
+    cover: '/images/blog/agence-seo-vs-agence-communication-digitale-cover.svg',
+    coverAlt: "Illustration d'une balance représentant la comparaison entre agence SEO et agence de communication digitale, sur fond dégradé Digitalink.",
+    related: [
+      { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Deux métiers souvent confondus',
+        paragraphs: [
+          "Une agence SEO se concentre exclusivement sur le référencement naturel : contenu, technique, netlinking. Une agence de communication digitale couvre un périmètre plus large : stratégie de marque, réseaux sociaux, publicité, branding, en plus du SEO.",
+        ],
+      },
+      {
+        id: 'quand-choisir',
+        heading: 'Laquelle choisir selon votre situation',
+        paragraphs: [
+          "Le bon choix dépend de votre maturité digitale et de vos besoins.",
+        ],
+        bullets: [
+          "Une agence SEO spécialisée : si votre stratégie digitale globale est déjà en place et qu'il ne manque que le référencement",
+          "Une agence de communication digitale généraliste : si vous partez de zéro et avez besoin d'une stratégie cohérente sur tous les canaux",
+          "Vérifier que l'agence généraliste dispose bien d'une réelle expertise SEO en interne, pas seulement en sous-traitance",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink combine les deux approches : une expertise SEO pointue intégrée dans une stratégie de communication digitale globale et cohérente. Contactez-nous pour en discuter.",
+        ],
+      },
+    ],
+  },
+  {
     slug: 'sea-guide-publicite-digitale-2026',
     title: 'SEA : Tout guide de la publicite digitale a connaitre en 2026',
     metaTitle: 'SEA 2026 : Guide complet Google Ads, Meta Ads, TikTok & Pinterest',
@@ -137,7 +706,8 @@
     date: '2026-05-12',
     readTime: '9 min',
     tags: ['SEA', 'Google Ads', 'Meta Ads', 'TikTok Ads', 'Pinterest Ads', 'Marketing Digital', 'Publicite Digitale'],
-    cover: '/images/blog/sea-guide-hero.jpeg',
+    cover: '/images/blog/sea-guide-cover.jpg',
+    coverAlt: 'Illustration 3D isométrique d\'optimisation de campagnes Google Ads avec tableaux de bord CTR, ROI et conversions.',
     related: [
       { title: 'Check-list SEA : lancer une campagne rentable en 7 jours', href: '/contact' },
       { title: 'Demander un audit Google Ads et Meta Ads', href: '/contact' },
@@ -185,7 +755,8 @@
     date: '2025-04-10',
     readTime: '6 min',
     tags: ['SEO', 'Referencement naturel', 'Content marketing'],
-    cover: null,
+    cover: '/images/blog/strategie-seo-cover.jpg',
+    coverAlt: 'Illustration futuriste de stratégie SEO avec mots-clés, backlinks, algorithmes et courbe de progression du classement.',
     related: [],
     sections: [
       {
@@ -205,7 +776,8 @@
     date: '2025-03-28',
     readTime: '8 min',
     tags: ['Google Ads', 'ROAS', 'SEA'],
-    cover: null,
+    cover: '/images/blog/ads-google-roas-cover.jpg',
+    coverAlt: 'Illustration 3D de performance Google Ads avec cible, graphique de croissance et impressions publicitaires.',
     related: [],
     sections: [
       {
@@ -225,7 +797,8 @@
     date: '2025-03-14',
     readTime: '5 min',
     tags: ['CRO', 'Landing page', 'Conversion'],
-    cover: null,
+    cover: '/images/blog/landing-page-conversion-cover.jpg',
+    coverAlt: "Illustration isométrique d'optimisation de landing page avec entonnoir de conversion et graphique de croissance.",
     related: [],
     sections: [
       {
@@ -245,7 +818,8 @@
     date: '2025-02-20',
     readTime: '7 min',
     tags: ['Email', 'Automation', 'CRM'],
-    cover: null,
+    cover: '/images/blog/email-marketing-cover.jpg',
+    coverAlt: "Illustration de séquence d'email automation avec parcours client, workflows automatisés et étapes de relance.",
     related: [],
     sections: [
       {
