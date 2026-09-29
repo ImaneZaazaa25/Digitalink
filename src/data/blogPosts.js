@@ -11,7 +11,7 @@
     date: '2026-09-20',
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
-    cover: '/images/blog/choisir-agence-cover.jpg',
+    cover: '/images/blog/choisir-agence-cover.svg',
     coverAlt: "Illustration de stratégie digitale à Casablanca avec silhouette de la ville, graphiques de croissance et icônes réseaux sociaux.",
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
@@ -75,8 +75,7 @@
     date: '2026-09-23',
     readTime: '6 min',
     tags: ['Branding', 'Identité de marque', 'Maroc', 'Stratégie digitale'],
-    cover: '/images/blog/branding-cover.jpg',
-    coverAlt: "Guide d'identité de marque avec moodboard, palette de couleurs et motifs marocains, style luxe et patrimoine.",
+    cover: null,
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
       { title: 'Demander un audit de marque gratuit', href: '/contact' },
@@ -706,8 +705,7 @@
     date: '2026-05-12',
     readTime: '9 min',
     tags: ['SEA', 'Google Ads', 'Meta Ads', 'TikTok Ads', 'Pinterest Ads', 'Marketing Digital', 'Publicite Digitale'],
-    cover: '/images/blog/sea-guide-cover.jpg',
-    coverAlt: 'Illustration 3D isométrique d\'optimisation de campagnes Google Ads avec tableaux de bord CTR, ROI et conversions.',
+    cover: '/images/blog/sea-guide-hero.jpeg',
     related: [
       { title: 'Check-list SEA : lancer une campagne rentable en 7 jours', href: '/contact' },
       { title: 'Demander un audit Google Ads et Meta Ads', href: '/contact' },
@@ -755,8 +753,7 @@
     date: '2025-04-10',
     readTime: '6 min',
     tags: ['SEO', 'Referencement naturel', 'Content marketing'],
-    cover: '/images/blog/strategie-seo-cover.jpg',
-    coverAlt: 'Illustration futuriste de stratégie SEO avec mots-clés, backlinks, algorithmes et courbe de progression du classement.',
+    cover: null,
     related: [],
     sections: [
       {
@@ -776,8 +773,7 @@
     date: '2025-03-28',
     readTime: '8 min',
     tags: ['Google Ads', 'ROAS', 'SEA'],
-    cover: '/images/blog/ads-google-roas-cover.jpg',
-    coverAlt: 'Illustration 3D de performance Google Ads avec cible, graphique de croissance et impressions publicitaires.',
+    cover: null,
     related: [],
     sections: [
       {
@@ -797,8 +793,7 @@
     date: '2025-03-14',
     readTime: '5 min',
     tags: ['CRO', 'Landing page', 'Conversion'],
-    cover: '/images/blog/landing-page-conversion-cover.jpg',
-    coverAlt: "Illustration isométrique d'optimisation de landing page avec entonnoir de conversion et graphique de croissance.",
+    cover: null,
     related: [],
     sections: [
       {
@@ -818,8 +813,7 @@
     date: '2025-02-20',
     readTime: '7 min',
     tags: ['Email', 'Automation', 'CRM'],
-    cover: '/images/blog/email-marketing-cover.jpg',
-    coverAlt: "Illustration de séquence d'email automation avec parcours client, workflows automatisés et étapes de relance.",
+    cover: null,
     related: [],
     sections: [
       {
