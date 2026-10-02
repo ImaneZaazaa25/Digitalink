@@ -5,8 +5,8 @@
       <stop offset="100%" stop-color="#0d0d2b"/>
     </linearGradient>
     <linearGradient id="ic" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c5cfc"/>
-      <stop offset="50%" stop-color="#c84fff"/>
+      <stop offset="0%" stop-color="#e040fb"/>
+      <stop offset="50%" stop-color="#7c5cfc"/>
       <stop offset="100%" stop-color="#38d2ff"/>
     </linearGradient>
     <filter id="b" x="-50%" y="-50%" width="200%" height="200%">
@@ -14,7 +14,7 @@
     </filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="1060" cy="120" r="190" fill="#7c5cfc" opacity="0.22" filter="url(#b)"/>
+  <circle cx="1060" cy="120" r="190" fill="#e040fb" opacity="0.22" filter="url(#b)"/>
   <circle cx="120" cy="520" r="200" fill="#38d2ff" opacity="0.20" filter="url(#b)"/>
   <text x="80" y="80" font-family="Arial, sans-serif" font-size="26" font-weight="700"
         letter-spacing="2" fill="#f0f0ff">DIGITALINK</text>

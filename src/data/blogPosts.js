@@ -11,8 +11,8 @@
     date: '2026-09-20',
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
-    cover: '/images/blog/choisir-agence-cover.svg',
-    coverAlt: "Illustration de stratégie digitale à Casablanca avec silhouette de la ville, graphiques de croissance et icônes réseaux sociaux.",
+    cover: '/images/blog/choisir-agence-cover.jpg',
+    coverAlt: 'Logo Digitalink, agence de marketing digital, sur fond bleu nuit avec la signature Growth. Performance. Results.',
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
       { title: 'Demander un audit digital gratuit', href: '/contact' },
@@ -75,7 +75,7 @@
     date: '2026-09-23',
     readTime: '6 min',
     tags: ['Branding', 'Identité de marque', 'Maroc', 'Stratégie digitale'],
-    cover: null,
+    cover: '/images/blog/branding-identite-maroc-cover.jpg',
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
       { title: 'Demander un audit de marque gratuit', href: '/contact' },
@@ -138,7 +138,6 @@
     readTime: '6 min',
     tags: ['Site Web', 'E-commerce', 'Maroc', 'Stratégie digitale'],
     cover: '/images/blog/site-web-vs-ecommerce-maroc-cover.svg',
-    coverAlt: "Illustration d'un site e-commerce avec panier d'achat, sur fond dégradé violet-bleu aux couleurs Digitalink.",
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
       { title: 'Demander un audit de votre projet digital', href: '/contact' },
@@ -200,7 +199,6 @@
     readTime: '6 min',
     tags: ["Marketing d'influence", 'Réseaux Sociaux', 'Maroc'],
     cover: '/images/blog/marketing-influence-maroc-cover.svg',
-    coverAlt: "Illustration d'un créateur de contenu avec halo, symbolisant le marketing d'influence, sur fond dégradé Digitalink.",
     related: [
       { title: 'Demander un audit réseaux sociaux gratuit', href: '/contact' },
     ],
@@ -233,7 +231,7 @@
           "Une campagne d'influence doit être mesurée comme n'importe quel autre levier marketing.",
         ],
         bullets: [
-          "Portée et impressions générées",
+          'Portée et impressions générées',
           "Taux d'engagement (likes, commentaires, partages)",
           "Trafic généré vers le site (liens trackés, codes promo)",
           "Conversions et ventes attribuées à la campagne",
@@ -261,7 +259,6 @@
     readTime: '6 min',
     tags: ['Social Media', 'Instagram', 'TikTok', 'Maroc'],
     cover: '/images/blog/social-media-management-strategie-cover.svg',
-    coverAlt: "Illustration d'une bulle de message représentant la gestion des réseaux sociaux, sur fond dégradé Digitalink.",
     related: [
       { title: "Marketing d'influence au Maroc", href: '/blogs/marketing-influence-maroc' },
     ],
@@ -280,10 +277,10 @@
           "Une stratégie social media efficace repose sur un équilibre entre plusieurs types de contenu.",
         ],
         bullets: [
-          "Contenu éducatif : conseils, astuces liés à votre secteur",
-          "Contenu de preuve sociale : avis clients, résultats, coulisses",
-          "Contenu de divertissement : formats courts, tendances TikTok adaptées",
-          "Contenu commercial : offres, nouveautés, appels à l'action",
+          'Contenu éducatif : conseils, astuces liés à votre secteur',
+          'Contenu de preuve sociale : avis clients, résultats, coulisses',
+          'Contenu de divertissement : formats courts, tendances TikTok adaptées',
+          'Contenu commercial : offres, nouveautés, appels à l\'action',
         ],
       },
       {
@@ -309,8 +306,8 @@
   },
   {
     slug: 'strategie-acquisition-multicanale-2026',
-    title: 'Stratégie d\'acquisition multicanale : les leviers à combiner en 2026',
-    metaTitle: 'Stratégie d\'acquisition multicanale 2026 : les leviers à combiner',
+    title: "Stratégie d'acquisition multicanale : les leviers à combiner en 2026",
+    metaTitle: "Stratégie d'acquisition multicanale 2026 : les leviers à combiner",
     metaDescription:
       "Comment combiner SEO, SEA, réseaux sociaux et email pour une stratégie d'acquisition digitale performante en 2026.",
     excerpt:
@@ -320,7 +317,6 @@
     readTime: '7 min',
     tags: ['Acquisition', 'Stratégie digitale', 'Multicanal'],
     cover: '/images/blog/strategie-acquisition-multicanale-2026-cover.svg',
-    coverAlt: "Illustration d'un entonnoir d'acquisition multicanal, sur fond dégradé Digitalink.",
     related: [
       { title: 'SEA : guide complet de la publicité digitale 2026', href: '/blogs/sea-guide-publicite-digitale-2026' },
     ],
@@ -339,10 +335,10 @@
           "Une stratégie multicanale équilibrée combine généralement plusieurs de ces leviers.",
         ],
         bullets: [
-          "SEO : trafic durable et gratuit sur le long terme",
-          "SEA (Google Ads, Meta Ads) : résultats rapides et mesurables",
-          "Réseaux sociaux organiques : notoriété et fidélisation",
-          "Email marketing : conversion et rétention à faible coût",
+          'SEO : trafic durable et gratuit sur le long terme',
+          'SEA (Google Ads, Meta Ads) : résultats rapides et mesurables',
+          'Réseaux sociaux organiques : notorieté et fidélisation',
+          'Email marketing : conversion et rétention à faible coût',
         ],
       },
       {
@@ -374,7 +370,6 @@
     readTime: '6 min',
     tags: ['SEO local', 'Casablanca', 'Google Maps', 'Maroc'],
     cover: '/images/blog/seo-local-casablanca-cover.svg',
-    coverAlt: "Illustration d'un repère de localisation représentant le SEO local à Casablanca, sur fond dégradé Digitalink.",
     related: [
       { title: 'Stratégie SEO : les 5 leviers incontournables', href: '/blogs/strategie-seo-2025' },
     ],
@@ -383,7 +378,7 @@
         id: 'introduction',
         heading: 'Le SEO local, différent du SEO classique',
         paragraphs: [
-          "Quand un client tape \"agence digitale près de moi\" ou \"à Casablanca\", Google affiche des résultats différents du SEO national classique : le pack local (carte + 3 fiches), puis les résultats organiques.",
+          'Quand un client tape "agence digitale près de moi" ou "à Casablanca", Google affiche des résultats différents du SEO national classique : le pack local (carte + 3 fiches), puis les résultats organiques.',
         ],
       },
       {
@@ -393,11 +388,11 @@
           "Plusieurs facteurs pèsent particulièrement sur le classement local.",
         ],
         bullets: [
-          "Une fiche Google Business Profile complète et régulièrement mise à jour",
-          "Des avis clients récents et des réponses aux avis",
-          "La cohérence du nom, adresse, téléphone (NAP) sur tout le web",
-          "Des mentions locales (citations) sur des annuaires et sites marocains",
-          "Du contenu qui mentionne explicitement les villes et quartiers ciblés",
+          'Une fiche Google Business Profile complète et régulièrement mise à jour',
+          'Des avis clients récents et des réponses aux avis',
+          'La cohérence du nom, adresse, téléphone (NAP) sur tout le web',
+          'Des mentions locales (citations) sur des annuaires et sites marocains',
+          'Du contenu qui mentionne explicitement les villes et quartiers ciblés',
         ],
       },
       {
@@ -422,7 +417,6 @@
     readTime: '6 min',
     tags: ['Marketing Automation', 'CRM', 'Maroc'],
     cover: '/images/blog/marketing-automation-crm-maroc-cover.svg',
-    coverAlt: "Illustration d'un engrenage représentant l'automatisation marketing et CRM, sur fond dégradé Digitalink.",
     related: [
       { title: 'Email marketing automation', href: '/blogs/email-marketing-automation' },
     ],
@@ -441,10 +435,10 @@
           "Le choix d'un CRM ou outil d'automation dépend surtout de la taille de l'entreprise et du budget disponible.",
         ],
         bullets: [
-          "Petite structure : privilégier un outil simple, tout-en-un, à budget limité",
-          "PME en croissance : un CRM avec segmentation avancée et intégrations e-commerce",
-          "Grande entreprise : une plateforme complète avec workflows complexes et reporting poussé",
-          "Vérifier la compatibilité avec les moyens de paiement et messageries locales (WhatsApp Business)",
+          'Petite structure : privilégier un outil simple, tout-en-un, à budget limité',
+          'PME en croissance : un CRM avec segmentation avancée et intégrations e-commerce',
+          'Grande entreprise : une plateforme complète avec workflows complexes et reporting poussé',
+          'Vérifier la compatibilité avec les moyens de paiement et messageries locales (WhatsApp Business)',
         ],
       },
       {
@@ -468,8 +462,7 @@
     date: '2026-10-14',
     readTime: '6 min',
     tags: ['Google Ads', 'Meta Ads', 'SEA'],
-    cover: '/images/blog/google-ads-vs-meta-ads-cover.svg',
-    coverAlt: "Illustration de deux cercles superposés représentant la comparaison Google Ads et Meta Ads, sur fond dégradé Digitalink.",
+    cover: '/images/blog/google-ads-vs-meta-ads-cover.jpg',
     related: [
       { title: 'Google Ads : doubler son ROAS sans augmenter le budget', href: '/blogs/ads-google-roas' },
     ],
@@ -483,15 +476,15 @@
       },
       {
         id: 'quand-choisir',
-        heading: 'Quand privilégier l\'un ou l\'autre',
+        heading: "Quand privilégier l'un ou l'autre",
         paragraphs: [
           "Le choix dépend de votre secteur et de votre objectif.",
         ],
         bullets: [
-          "Google Ads : idéal pour les besoins urgents ou récurrents (services, dépannage, B2B)",
-          "Meta Ads : idéal pour les produits visuels, impulsifs ou nouveaux sur le marché",
-          "Avec un budget limité, tester un seul canal en profondeur plutôt que diviser sur les deux",
-          "Avec un budget confortable, combiner les deux à des étapes différentes du parcours client",
+          'Google Ads : idéal pour les besoins urgents ou récurrents (services, dépannage, B2B)',
+          'Meta Ads : idéal pour les produits visuels, impulsifs ou nouveaux sur le marché',
+          'Avec un budget limité, tester un seul canal en profondeur plutôt que diviser sur les deux',
+          'Avec un budget confortable, combiner les deux à des étapes différentes du parcours client',
         ],
       },
       {
@@ -516,7 +509,6 @@
     readTime: '6 min',
     tags: ['Tendances', 'Marketing Digital', 'Maroc', '2026'],
     cover: '/images/blog/tendances-marketing-digital-maroc-2026-cover.svg',
-    coverAlt: "Illustration d'une courbe de tendance ascendante représentant les tendances marketing digital 2026, sur fond dégradé Digitalink.",
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
     ],
@@ -536,10 +528,10 @@
         ],
         bullets: [
           "L'IA générative utilisée pour la création de contenu et l'optimisation des campagnes",
-          "La vidéo courte (TikTok, Reels) devient centrale, y compris pour les marques B2B",
-          "Le SEO local prend de l'ampleur avec la digitalisation des PME marocaines",
+          'La vidéo courte (TikTok, Reels) devient centrale, y compris pour les marques B2B',
+          'Le SEO local prend de l\'ampleur avec la digitalisation des PME marocaines',
           "Le marketing d'influence se professionnalise, avec des contrats et des KPIs plus clairs",
-          "La confidentialité des données pousse vers une first-party data plus structurée",
+          'La confidentialité des données pousse vers une first-party data plus structurée',
         ],
       },
       {
@@ -564,7 +556,6 @@
     readTime: '5 min',
     tags: ['SEA', 'Audit', 'Conversion'],
     cover: '/images/blog/auditer-site-avant-campagne-sea-cover.svg',
-    coverAlt: "Illustration d'une check-list validée représentant l'audit de site avant une campagne SEA, sur fond dégradé Digitalink.",
     related: [
       { title: 'Landing page : 7 éléments pour mieux convertir', href: '/blogs/landing-page-conversion' },
     ],
@@ -583,11 +574,11 @@
           "Voici les points à vérifier systématiquement.",
         ],
         bullets: [
-          "Vitesse de chargement de la page de destination (mobile en priorité)",
+          'Vitesse de chargement de la page de destination (mobile en priorité)',
           "Présence d'une landing page dédiée à l'offre, pas seulement la page d'accueil",
-          "Formulaire de contact simple et fonctionnel, testé de bout en bout",
-          "Tracking des conversions correctement installé (Google Tag Manager, pixels)",
-          "Cohérence entre le message de l'annonce et le contenu de la page",
+          'Formulaire de contact simple et fonctionnel, testé de bout en bout',
+          'Tracking des conversions correctement installé (Google Tag Manager, pixels)',
+          'Cohérence entre le message de l\'annonce et le contenu de la page',
         ],
       },
       {
@@ -601,8 +592,8 @@
   },
   {
     slug: 'quelle-plateforme-sociale-par-secteur',
-    title: 'Réseaux sociaux : quelle plateforme pour quel secteur d\'activité',
-    metaTitle: 'Quel réseau social choisir selon votre secteur d\'activité',
+    title: "Réseaux sociaux : quelle plateforme pour quel secteur d'activité",
+    metaTitle: "Quel réseau social choisir selon votre secteur d'activité",
     metaDescription:
       "Guide pour choisir la ou les bonnes plateformes sociales (Instagram, TikTok, LinkedIn, Facebook) selon votre secteur d'activité.",
     excerpt:
@@ -612,14 +603,13 @@
     readTime: '5 min',
     tags: ['Réseaux Sociaux', 'Stratégie digitale'],
     cover: '/images/blog/quelle-plateforme-sociale-par-secteur-cover.svg',
-    coverAlt: "Illustration d'une grille d'icônes représentant le choix de plateforme sociale par secteur, sur fond dégradé Digitalink.",
     related: [
       { title: 'Social Media Management : stratégie Instagram/TikTok', href: '/blogs/social-media-management-strategie' },
     ],
     sections: [
       {
         id: 'introduction',
-        heading: 'Être partout n\'est pas une stratégie',
+        heading: "Être partout n'est pas une stratégie",
         paragraphs: [
           "Beaucoup d'entreprises se dispersent sur tous les réseaux sociaux sans réelle stratégie, ce qui dilue les efforts. Mieux vaut être excellent sur une ou deux plateformes pertinentes que médiocre partout.",
         ],
@@ -631,11 +621,11 @@
           "Quelques repères généraux pour orienter votre choix.",
         ],
         bullets: [
-          "B2B et services professionnels : LinkedIn en priorité",
-          "Mode, beauté, food : Instagram et TikTok",
-          "Immobilier, automobile : Facebook (audience large, recherche active)",
-          "Marques lifestyle jeunes : TikTok en priorité",
-          "Artisanat, décoration : Instagram et Pinterest",
+          'B2B et services professionnels : LinkedIn en priorité',
+          'Mode, beauté, food : Instagram et TikTok',
+          'Immobilier, automobile : Facebook (audience large, recherche active)',
+          'Marques lifestyle jeunes : TikTok en priorité',
+          'Artisanat, décoration : Instagram et Pinterest',
         ],
       },
       {
@@ -660,7 +650,6 @@
     readTime: '5 min',
     tags: ['Agence SEO', 'Agence Digitale', 'Comparatif'],
     cover: '/images/blog/agence-seo-vs-agence-communication-digitale-cover.svg',
-    coverAlt: "Illustration d'une balance représentant la comparaison entre agence SEO et agence de communication digitale, sur fond dégradé Digitalink.",
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
     ],
@@ -753,7 +742,7 @@
     date: '2025-04-10',
     readTime: '6 min',
     tags: ['SEO', 'Referencement naturel', 'Content marketing'],
-    cover: null,
+    cover: '/images/blog/strategie-seo-2025-cover.jpg',
     related: [],
     sections: [
       {
@@ -773,7 +762,7 @@
     date: '2025-03-28',
     readTime: '8 min',
     tags: ['Google Ads', 'ROAS', 'SEA'],
-    cover: null,
+    cover: '/images/blog/ads-google-roas-cover.jpg',
     related: [],
     sections: [
       {
@@ -793,7 +782,7 @@
     date: '2025-03-14',
     readTime: '5 min',
     tags: ['CRO', 'Landing page', 'Conversion'],
-    cover: null,
+    cover: '/images/blog/landing-page-conversion-cover.jpg',
     related: [],
     sections: [
       {
@@ -813,7 +802,7 @@
     date: '2025-02-20',
     readTime: '7 min',
     tags: ['Email', 'Automation', 'CRM'],
-    cover: null,
+    cover: '/images/blog/email-marketing-automation-cover.jpg',
     related: [],
     sections: [
       {
