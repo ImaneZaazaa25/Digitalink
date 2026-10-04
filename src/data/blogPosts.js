@@ -1,4 +1,4 @@
-﻿export const BLOG_POSTS = [
+export const BLOG_POSTS = [
   {
     slug: 'choisir-agence-communication-digitale-casablanca',
     title: 'Comment choisir son agence de communication digitale à Casablanca (guide 2026)',
@@ -11,7 +11,7 @@
     date: '2026-09-20',
     readTime: '7 min',
     tags: ['Agence Digitale', 'Casablanca', 'Communication Digitale', 'Maroc'],
-    cover: '/images/blog/choisir-agence-cover.jpg',
+    cover: '/images/blog/choisir-agence-cover.svg',
     coverAlt: 'Logo Digitalink, agence de marketing digital, sur fond bleu nuit avec la signature Growth. Performance. Results.',
     related: [
       { title: 'Qui sommes-nous ? Découvrez Digitalink', href: '/about-us' },
@@ -75,7 +75,7 @@
     date: '2026-09-23',
     readTime: '6 min',
     tags: ['Branding', 'Identité de marque', 'Maroc', 'Stratégie digitale'],
-    cover: '/images/blog/branding-identite-maroc-cover.jpg',
+    cover: '/images/blog/branding-identite-maroc-cover.svg',
     related: [
       { title: 'Comment choisir son agence de communication digitale à Casablanca', href: '/blogs/choisir-agence-communication-digitale-casablanca' },
       { title: 'Demander un audit de marque gratuit', href: '/contact' },
@@ -462,7 +462,7 @@
     date: '2026-10-14',
     readTime: '6 min',
     tags: ['Google Ads', 'Meta Ads', 'SEA'],
-    cover: '/images/blog/google-ads-vs-meta-ads-cover.jpg',
+    cover: '/images/blog/google-ads-vs-meta-ads-cover.svg',
     related: [
       { title: 'Google Ads : doubler son ROAS sans augmenter le budget', href: '/blogs/ads-google-roas' },
     ],
@@ -742,7 +742,7 @@
     date: '2025-04-10',
     readTime: '6 min',
     tags: ['SEO', 'Referencement naturel', 'Content marketing'],
-    cover: '/images/blog/strategie-seo-2025-cover.jpg',
+    cover: '/images/blog/strategie-seo-2025-cover.svg',
     related: [],
     sections: [
       {
@@ -762,7 +762,7 @@
     date: '2025-03-28',
     readTime: '8 min',
     tags: ['Google Ads', 'ROAS', 'SEA'],
-    cover: '/images/blog/ads-google-roas-cover.jpg',
+    cover: '/images/blog/ads-google-roas-cover.svg',
     related: [],
     sections: [
       {
@@ -782,7 +782,7 @@
     date: '2025-03-14',
     readTime: '5 min',
     tags: ['CRO', 'Landing page', 'Conversion'],
-    cover: '/images/blog/landing-page-conversion-cover.jpg',
+    cover: '/images/blog/landing-page-conversion-cover.svg',
     related: [],
     sections: [
       {
@@ -802,7 +802,7 @@
     date: '2025-02-20',
     readTime: '7 min',
     tags: ['Email', 'Automation', 'CRM'],
-    cover: '/images/blog/email-marketing-automation-cover.jpg',
+    cover: '/images/blog/email-marketing-automation-cover.svg',
     related: [],
     sections: [
       {
