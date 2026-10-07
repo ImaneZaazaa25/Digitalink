@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './About.module.css';
 import useInView from '../hooks/useInView';
 
@@ -9,7 +10,6 @@ import {
   FaBullseye
 } from 'react-icons/fa';
 
-//  Data propre et scalable
 const PILLARS = [
   {
     title: 'Orientés Performance',
@@ -40,8 +40,7 @@ export default function About() {
   return (
     <section className={styles.section} id="about">
       <div className={styles.inner}>
-        
-        {/* LEFT CONTENT */}
+
         <div
           ref={ref}
           className={`${styles.left} ${inView ? styles.visible : ''}`}
@@ -64,10 +63,14 @@ export default function About() {
           </p>
 
           <p className={styles.body}>
-            À Casablanca comme dans tout le Maroc, nous accompagnons les entreprises qui cherchent une agence de communication digitale capable de conjuguer stratégie, créativité et résultats mesurables. En tant qu'agence digitale marocaine reconnue pour son expertise locale, nous adaptons chaque stratégie de marketing digital au marché national tout en gardant une vision internationale.
+            À Casablanca comme dans tout le Maroc, nous accompagnons les entreprises qui cherchent une{' '}
+            <Link to="/blogs/choisir-agence-communication-digitale-casablanca">agence de communication digitale</Link>{' '}
+            capable de conjuguer stratégie, créativité et résultats mesurables. En tant qu'agence digitale marocaine
+            reconnue pour son expertise locale, nous adaptons chaque stratégie de marketing digital au marché national
+            tout en gardant une vision internationale. Découvrez aussi notre approche du{' '}
+            <Link to="/blogs/branding-identite-marque-maroc">branding au Maroc</Link>.
           </p>
 
-          {/* CONTACT */}
           <div className={styles.contact}>
             <a href="tel:+212660385276" className={styles.contactItem}>
               <FaBolt />
@@ -76,7 +79,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* RIGHT PILLARS */}
         <div
           ref={pillarsRef}
           className={`${styles.right} ${pillarsInView ? styles.pillarsVisible : ''}`}

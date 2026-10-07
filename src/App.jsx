@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Ticker from './components/Ticker';
 import { trackEvent } from './utils/gtm';
 import usePageSEO from './hooks/usePageSEO';
+import { BLOG_POSTS } from './data/blogPosts';
 
 const Services  = lazy(() => import('./components/Services'));
 const About     = lazy(() => import('./components/About'));
@@ -51,7 +52,7 @@ function ScrollToTop() {
   );
 }
 
-// ── Page principale ───────────────────────────────────────────
+// ── Page principale ──────────────────────────────────────
 // Le lien "Contact" du Navbar scrolle vers #contact sur cette page
 function HomePage() {
   usePageSEO(
@@ -66,6 +67,24 @@ function HomePage() {
       <Suspense fallback={<div style={{ height: 200 }} />}>
         <Services />
         <Results />
+        <section style={{ padding: '4rem 1.5rem', maxWidth: 1100, margin: '0 auto' }}>
+          <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>Derniers articles</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
+            {BLOG_POSTS.slice(0, 3).map((post) => (
+              <a
+                key={post.slug}
+                href={`/blogs/${post.slug}`}
+                style={{ display: 'block', padding: '1.5rem', borderRadius: 12, background: 'rgba(255,255,255,0.04)', textDecoration: 'none', color: 'inherit' }}
+              >
+                <strong>{post.title}</strong>
+                <p style={{ opacity: 0.7, marginTop: 8 }}>{post.excerpt}</p>
+              </a>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+            <a href="/blogs">Voir tous les articles →</a>
+          </div>
+        </section>
         {/* id anchor : le Navbar scroll ici depuis "/" */}
         <section id="contact">
           <Contact />
@@ -79,7 +98,7 @@ function HomePage() {
 // ── Page À propos ──────────────────────────────────────────
 function AboutPage() {
   usePageSEO(
-    'Qui sommes-nous ? Agence Digitalink Maroc',
+    'Agence de Communication Digitale à Casablanca | Digitalink',
     "Découvrez l'équipe et l'expertise de Digitalink, agence de conseil en stratégie digitale et communication basée à Casablanca.",
     '/about-us'
   );
