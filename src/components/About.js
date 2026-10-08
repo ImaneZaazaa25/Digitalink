@@ -71,6 +71,13 @@ export default function About() {
             <Link to="/blogs/branding-identite-marque-maroc">branding au Maroc</Link>.
           </p>
 
+          <p className={styles.body}>
+            Notre agence de communication à Casablanca intervient aussi bien pour des boîtes de communication
+            établies que pour des startups en pleine croissance. Que vous cherchiez une agence de communication
+            digitale, une agence marketing digital ou un accompagnement en digital marketing agency casablanca,
+            notre équipe met à votre disposition une expertise locale et une vision 360° de votre présence en ligne.
+          </p>
+
           <div className={styles.contact}>
             <a href="tel:+212660385276" className={styles.contactItem}>
               <FaBolt />
