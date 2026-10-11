@@ -95,7 +95,7 @@ function HomePage() {
   );
 }
 
-// ── Page À propos ──────────────────────────────────────────
+// ── Page À propos ──────────────────────────────────────
 function AboutPage() {
   usePageSEO(
     'Agence de Communication Digitale à Casablanca | Digitalink',
@@ -116,7 +116,7 @@ function AboutPage() {
 function ContactPage() {
   usePageSEO(
     'Contactez Digitalink | Agence Communication Digitale Casablanca',
-    'Un projet de communication digitale ou de branding ? Contactez notre agence à Casablanca, réponse sous 24h.',
+    'Audit digital gratuit et réponse sous 24h : contactez Digitalink, agence de communication digitale à Casablanca, pour booster votre visibilité en ligne.',
     '/contact'
   );
   return (
@@ -135,8 +135,13 @@ function ContactPage() {
   );
 }
 
-// ── Page Blog (liste des articles) ────────────────────────────
+// ── Page Blog (liste des articles) ─────────────────────
 function BlogPage() {
+  usePageSEO(
+    'Blog Marketing Digital | Conseils SEO, SEA, Branding - Digitalink',
+    "Guides et conseils pratiques en SEO, SEA, branding et reseaux sociaux par l'agence Digitalink, pour reussir votre strategie digitale au Maroc.",
+    '/blogs'
+  );
   return (
     <main>
       <Suspense fallback={<div style={{ height: 200 }} />}>
