@@ -683,6 +683,100 @@ export const BLOG_POSTS = [
     ],
   },
   {
+    slug: 'agence-redaction-contenu-marketing-casablanca',
+    title: 'Rédaction de contenu marketing : pourquoi faire appel à une agence spécialisée à Casablanca',
+    metaTitle: 'Agence de rédaction de contenu marketing à Casablanca',
+    metaDescription:
+      "Pourquoi confier la rédaction de votre contenu marketing à une agence spécialisée à Casablanca : qualité, cohérence et impact SEO.",
+    excerpt:
+      "Un contenu bien écrit fait la différence entre un site qui convertit et un site qui passe inaperçu.",
+    category: 'Stratégie',
+    date: '2026-10-29',
+    readTime: '5 min',
+    tags: ['Rédaction de contenu', 'Content Marketing', 'Casablanca'],
+    cover: null,
+    related: [
+      { title: 'Stratégie SEO : les 5 leviers incontournables', href: '/blogs/strategie-seo-2025' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Pourquoi le contenu reste le socle de toute stratégie digitale',
+        paragraphs: [
+          "Qu'il s'agisse d'un site web, d'un blog ou de réseaux sociaux, tout repose sur le contenu : c'est lui qui informe, convainc et convertit un visiteur en client.",
+          "Un contenu mal écrit, générique ou mal structuré fait fuir aussi bien les lecteurs que les moteurs de recherche.",
+        ],
+      },
+      {
+        id: 'avantages-agence',
+        heading: "Les avantages de passer par une agence spécialisée",
+        paragraphs: [
+          "Confier sa rédaction à des professionnels présente plusieurs bénéfices concrets.",
+        ],
+        bullets: [
+          "Une écriture optimisée pour le SEO sans sacrifier la lisibilité humaine",
+          "Une cohérence de ton sur tous vos supports (site, blog, réseaux sociaux)",
+          "Un gain de temps pour vos équipes internes, libérées de cette tâche chronophage",
+          "Une connaissance du marché marocain pour un ton et des références qui résonnent localement",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, la rédaction de contenu fait partie intégrante de notre approche SEO globale à Casablanca. Contactez-nous pour discuter de vos besoins en contenu.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'media-buying-maroc-guide',
+    title: "Media buying au Maroc : comment ça marche et pourquoi c'est rentable",
+    metaTitle: 'Media buying au Maroc : guide complet',
+    metaDescription:
+      "Qu'est-ce que le media buying et comment l'utiliser efficacement pour vos campagnes publicitaires au Maroc.",
+    excerpt:
+      "Le media buying permet d'acheter l'espace publicitaire au meilleur prix, sur les bons canaux, au bon moment.",
+    category: 'Publicité',
+    date: '2026-11-01',
+    readTime: '5 min',
+    tags: ['Media Buying', 'Publicité', 'Maroc'],
+    cover: null,
+    related: [
+      { title: 'SEA : guide complet de la publicité digitale 2026', href: '/blogs/sea-guide-publicite-digitale-2026' },
+    ],
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Qu'est-ce que le media buying",
+        paragraphs: [
+          "Le media buying désigne l'ensemble des techniques d'achat d'espaces publicitaires (digitaux ou traditionnels) au meilleur prix et au meilleur moment pour toucher sa cible.",
+          "Au Maroc, cette pratique se concentre de plus en plus sur le digital : Google Ads, Meta Ads, TikTok Ads, mais aussi l'affichage programmatique.",
+        ],
+      },
+      {
+        id: 'pourquoi-rentable',
+        heading: "Pourquoi c'est rentable quand c'est bien fait",
+        paragraphs: [
+          "Un media buying maîtrisé repose sur quelques principes clés.",
+        ],
+        bullets: [
+          "Négocier les meilleurs tarifs d'enchères selon la saisonnalité et la concurrence",
+          "Répartir le budget entre plusieurs canaux selon leur performance réelle",
+          "Ajuster les campagnes en temps réel grâce aux données de conversion",
+          "Éviter le gaspillage budgétaire sur des audiences peu qualifiées",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink accompagne les entreprises marocaines dans leurs stratégies de media buying, du choix des canaux à l'optimisation continue des campagnes. Contactez-nous pour un audit de vos achats média.",
+        ],
+      },
+    ],
+  },
+  {
     slug: 'sea-guide-publicite-digitale-2026',
     title: 'SEA : Tout guide de la publicite digitale a connaitre en 2026',
     metaTitle: 'SEA 2026 : Guide complet Google Ads, Meta Ads, TikTok & Pinterest',
