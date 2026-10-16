@@ -62,6 +62,20 @@ export const BLOG_POSTS = [
         ],
       },
     ],
+    faq: [
+      {
+        question: 'Combien coûte une agence de communication digitale à Casablanca ?',
+        answer: "Les tarifs varient selon les services demandés (SEO, SEA, réseaux sociaux, branding) et la taille de l'entreprise. Un accompagnement mensuel démarre généralement autour de quelques milliers de dirhams pour une PME.",
+      },
+      {
+        question: 'Quelle est la différence entre une agence digitale et une agence de communication classique ?',
+        answer: "Une agence digitale se concentre sur les canaux en ligne (SEO, SEA, réseaux sociaux, sites web), tandis qu'une agence de communication classique couvre aussi les supports traditionnels. Beaucoup d'agences marocaines combinent les deux approches.",
+      },
+      {
+        question: 'Combien de temps faut-il pour voir des résultats SEO au Maroc ?',
+        answer: "Les premiers résultats techniques sont visibles en quelques semaines, mais une amélioration réelle des positions sur des mots-clés commerciaux prend généralement 2 à 6 mois.",
+      },
+    ],
   },
   {
     slug: 'branding-identite-marque-maroc',
@@ -122,6 +136,20 @@ export const BLOG_POSTS = [
         paragraphs: [
           "Chez Digitalink, nous accompagnons les entreprises marocaines dans la construction d'une identité de marque forte, cohérente avec leur stratégie digitale globale. Contactez-nous pour un audit de marque gratuit.",
         ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Combien coûte une refonte de marque au Maroc ?',
+        answer: "Le coût dépend de l'ampleur du projet : une simple mise à jour de charte graphique coûte moins cher qu'une refonte complète incluant logo, positionnement et déclinaisons digitales.",
+      },
+      {
+        question: 'Faut-il changer de logo pour revoir son identité de marque ?',
+        answer: "Pas forcément. Le branding va au-delà du logo : positionnement, ton de voix, expérience client. Un logo peut rester inchangé si le reste de l'identité est cohérent et efficace.",
+      },
+      {
+        question: 'Quelle est la différence entre branding et marketing ?',
+        answer: "Le branding définit qui vous êtes (identité, valeurs, positionnement), tandis que le marketing définit comment vous le faites savoir (campagnes, canaux, contenu).",
       },
     ],
   },
