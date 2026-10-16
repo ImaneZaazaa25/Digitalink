@@ -1,4 +1,4 @@
-﻿import React, { useMemo, useEffect } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { getPostBySlug } from '../../data/blogPosts';
 import styles from './Blogpost.module.css';
@@ -62,14 +62,14 @@ export default function BlogPost() {
     <article className={styles.article}>
       <div className={styles.breadcrumb}>
         <Link to="/" className={styles.breadLink}>Accueil</Link>
-        <span className={styles.sep}>›</span>
+        <span className={styles.sep}>•</span>
         <Link to="/blogs" className={styles.breadLink}>Blogs</Link>
-        <span className={styles.sep}>›</span>
+        <span className={styles.sep}>•</span>
         <span className={styles.breadCurrent}>{post.category}</span>
       </div>
 
       <header className={styles.hero}>
-        <img src={post.cover} alt={post.title} className={styles.heroImage} loading="eager" />
+        <img src={post.cover} alt={post.coverAlt || post.title} className={styles.heroImage} loading="eager" />
         <div className={styles.heroContent}>
           <span className={styles.category}>{post.category}</span>
           <h1 className={styles.title}>{post.title}</h1>
@@ -152,6 +152,18 @@ export default function BlogPost() {
         })}
       </div>
 
+      {post.faq?.length > 0 && (
+        <section className={styles.sectionBlock} id="faq">
+          <h2 className={styles.h2}>Questions frequentes</h2>
+          {post.faq.map((item) => (
+            <div key={item.question} style={{ marginBottom: '1.25rem' }}>
+              <h3 style={{ marginBottom: '0.4rem' }}>{item.question}</h3>
+              <p className={styles.p}>{item.answer}</p>
+            </div>
+          ))}
+        </section>
+      )}
+
       <section className={styles.cta}>
         <h3>Vous voulez lancer une strategie SEA performante ?</h3>
         <p>Notre equipe vous aide a structurer vos campagnes Google Ads, Meta Ads, TikTok Ads et Pinterest Ads.</p>
@@ -187,6 +199,20 @@ export default function BlogPost() {
           keywords: post.tags.join(', '),
         })}
       </script>
+
+      {post.faq?.length > 0 && (
+        <script type="application/ld+json" suppressHydrationWarning>
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: post.faq.map((item) => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: { '@type': 'Answer', text: item.answer },
+            })),
+          })}
+        </script>
+      )}
     </article>
   );
 }
