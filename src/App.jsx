@@ -95,7 +95,7 @@ function HomePage() {
   );
 }
 
-// ── Page À propos ──────────────────────────────────────
+// ── Page À propos ──────────────────────────────────────────
 function AboutPage() {
   usePageSEO(
     'Agence de Communication Digitale à Casablanca | Digitalink',
@@ -123,10 +123,10 @@ function ContactPage() {
     <main>
       <Suspense fallback={<div style={{ height: 200 }} />}>
         <h1 style={{ textAlign: 'center', maxWidth: 800, margin: '2.5rem auto 0', fontSize: '2rem', fontWeight: 700 }}>
-          Contactez Notre Agence de Communication Digitale à Casablanca
+          Contactez Digitalink
         </h1>
         <p style={{ textAlign: 'center', maxWidth: 640, margin: '1rem auto 0', opacity: 0.8 }}>
-          Vous cherchez un conseil marketing digital adapté à votre secteur ? Notre agence de communication à Casablanca vous accompagne de la stratégie à l'exécution, avec un interlocuteur dédié à chaque étape.
+          Prêt à lancer votre projet ? Remplissez le formulaire ci-dessous ou appelez-nous directement — réponse sous 24h pour discuter de votre stratégie SEO, publicité ou branding.
         </p>
         <Contact />
         <Footer />
