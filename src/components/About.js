@@ -33,6 +33,21 @@ const PILLARS = [
   },
 ];
 
+const FAQ = [
+  {
+    question: 'Combien coûte une agence de communication digitale à Casablanca ?',
+    answer: "Le coût dépend des services choisis (SEO, SEA, réseaux sociaux, branding) et de l'ampleur du projet. Contactez-nous pour un devis personnalisé adapté à votre budget.",
+  },
+  {
+    question: 'Quelle agence de communication digitale choisir à Casablanca ?',
+    answer: "Privilégiez une agence transparente sur ses résultats, avec une expertise multicanale réelle et une bonne connaissance du marché marocain.",
+  },
+  {
+    question: 'Combien de temps pour voir des résultats avec une agence digitale ?',
+    answer: "Les premiers résultats techniques apparaissent en quelques semaines, mais un impact réel sur le trafic et les conversions prend généralement 2 à 6 mois selon la concurrence.",
+  },
+];
+
 export default function About() {
   const [ref, inView] = useInView();
   const [pillarsRef, pillarsInView] = useInView();
@@ -78,6 +93,14 @@ export default function About() {
             notre équipe met à votre disposition une expertise locale et une vision 360° de votre présence en ligne.
           </p>
 
+          <h2 className={styles.title} style={{ fontSize: '1.4rem', marginTop: '2rem' }}>Questions fréquentes</h2>
+          {FAQ.map((item) => (
+            <div key={item.question} style={{ marginBottom: '1rem' }}>
+              <h3 style={{ fontSize: '1.05rem', marginBottom: '0.3rem' }}>{item.question}</h3>
+              <p className={styles.body}>{item.answer}</p>
+            </div>
+          ))}
+
           <div className={styles.contact}>
             <a href="tel:+212660385276" className={styles.contactItem}>
               <FaBolt />
@@ -107,6 +130,18 @@ export default function About() {
         </div>
 
       </div>
+
+      <script type="application/ld+json" suppressHydrationWarning>
+        {JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: FAQ.map((item) => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: { '@type': 'Answer', text: item.answer },
+          })),
+        })}
+      </script>
     </section>
   );
 }
