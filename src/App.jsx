@@ -15,6 +15,25 @@ const Footer    = lazy(() => import('./components/Footer'));
 const BlogList  = lazy(() => import('./components/blog/Bloglist'));
 const BlogPost  = lazy(() => import('./components/blog/Blogpost'));
 const SitemapPage = lazy(() => import('./components/SitemapPage'));
+const LegalPage = lazy(() => import('./components/LegalPage'));
+
+const LEGAL_META = {
+  mentions: {
+    title: 'Mentions légales | Digitalink',
+    description: 'Mentions légales du site digitalink.ma : éditeur, hébergement, propriété intellectuelle et responsabilité.',
+    path: '/mentions-legales',
+  },
+  confidentialite: {
+    title: 'Politique de confidentialité | Digitalink',
+    description: 'Politique de confidentialité du site digitalink.ma : données collectées, finalités, cookies et droits des utilisateurs.',
+    path: '/confidentialite',
+  },
+  cgu: {
+    title: "Conditions générales d'utilisation | Digitalink",
+    description: "Conditions générales d'utilisation du site digitalink.ma.",
+    path: '/cgu',
+  },
+};
 
 // ── Scroll to top on route change ────────────────────────────
 function ScrollToTopOnNav() {
@@ -182,6 +201,20 @@ function PlanDuSitePage() {
   );
 }
 
+// ── Pages légales ───────────────────────────────────────────────
+function LegalRoute({ pageKey }) {
+  const meta = LEGAL_META[pageKey];
+  usePageSEO(meta.title, meta.description, meta.path);
+  return (
+    <main>
+      <Suspense fallback={<div style={{ height: 200 }} />}>
+        <LegalPage pageKey={pageKey} />
+        <Footer />
+      </Suspense>
+    </main>
+  );
+}
+
 // ── Root ───────────────────────────────────────────────────────────────────
 export default function App() {
   return (
@@ -212,6 +245,9 @@ function AppContent() {
         <Route path="/blogs"          element={<BlogPage />} />
         <Route path="/blogs/:slug"    element={<BlogPostPage />} />
         <Route path="/plan-du-site"   element={<PlanDuSitePage />} />
+        <Route path="/mentions-legales" element={<LegalRoute pageKey="mentions" />} />
+        <Route path="/confidentialite"  element={<LegalRoute pageKey="confidentialite" />} />
+        <Route path="/cgu"              element={<LegalRoute pageKey="cgu" />} />
       </Routes>
       <ScrollToTop />
     </>
