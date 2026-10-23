@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const TO_FILL = '[À compléter]';
 const UPDATED = 'Dernière mise à jour : octobre 2026';
 
 const PAGES = {
@@ -12,12 +11,7 @@ const PAGES = {
         heading: 'Éditeur du site',
         paragraphs: [
           'Le site digitalink.ma est édité par Digitalink.',
-          `Forme juridique : ${TO_FILL}`,
-          `ICE / RC : ${TO_FILL}`,
-          `Adresse du siège : ${TO_FILL}`,
           'Téléphone : +212 660 385 276',
-          `E-mail : ${TO_FILL}`,
-          `Directeur de la publication : ${TO_FILL}`,
         ],
       },
       {
@@ -59,7 +53,7 @@ const PAGES = {
       {
         heading: 'Responsable du traitement',
         paragraphs: [
-          `Le responsable du traitement des données collectées sur digitalink.ma est Digitalink. Contact : +212 660 385 276 – ${TO_FILL}`,
+          'Le responsable du traitement des données collectées sur digitalink.ma est Digitalink. Contact : +212 660 385 276',
         ],
       },
       {
