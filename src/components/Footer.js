@@ -1,4 +1,4 @@
-﻿// src/components/Footer.jsx
+// src/components/Footer.jsx
 import React, { useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Footer.module.css';
@@ -24,6 +24,7 @@ const LINKS = {
     { label: 'Resultats', to: '/#results', type: 'hash' },
     { label: 'Contact', to: '/contact', type: 'route' },
     { label: 'Blogs', to: '/blogs', type: 'route' },
+    { label: 'Plan du site', to: '/plan-du-site', type: 'route' },
   ],
   Legal: [
     { label: 'Mentions legales', to: '/mentions-legales', type: 'route' },

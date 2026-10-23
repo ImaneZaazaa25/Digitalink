@@ -14,6 +14,7 @@ const Contact   = lazy(() => import('./components/Contact'));
 const Footer    = lazy(() => import('./components/Footer'));
 const BlogList  = lazy(() => import('./components/blog/Bloglist'));
 const BlogPost  = lazy(() => import('./components/blog/Blogpost'));
+const SitemapPage = lazy(() => import('./components/SitemapPage'));
 
 // ── Scroll to top on route change ────────────────────────────
 function ScrollToTopOnNav() {
@@ -164,6 +165,23 @@ function BlogPostPage() {
   );
 }
 
+// ── Page Plan du site ─────────────────────────────────────
+function PlanDuSitePage() {
+  usePageSEO(
+    'Plan du site | Digitalink, agence de communication digitale Casablanca',
+    'Retrouvez toutes les pages et tous les articles de Digitalink : SEO, publicité digitale, branding, réseaux sociaux et stratégie digitale au Maroc.',
+    '/plan-du-site'
+  );
+  return (
+    <main>
+      <Suspense fallback={<div style={{ height: 200 }} />}>
+        <SitemapPage />
+        <Footer />
+      </Suspense>
+    </main>
+  );
+}
+
 // ── Root ───────────────────────────────────────────────────────────────────
 export default function App() {
   return (
@@ -193,6 +211,7 @@ function AppContent() {
         <Route path="/contact"       element={<ContactPage />} />
         <Route path="/blogs"          element={<BlogPage />} />
         <Route path="/blogs/:slug"    element={<BlogPostPage />} />
+        <Route path="/plan-du-site"   element={<PlanDuSitePage />} />
       </Routes>
       <ScrollToTop />
     </>
