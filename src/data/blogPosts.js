@@ -865,12 +865,53 @@ export const BLOG_POSTS = [
     readTime: '6 min',
     tags: ['SEO', 'Referencement naturel', 'Content marketing'],
     cover: '/images/blog/strategie-seo-2025-cover.svg',
-    related: [],
+    related: [
+      { title: 'SEO local : comment ranker sur "à Casablanca" et "au Maroc"', href: '/blogs/seo-local-casablanca' },
+      { title: 'Rédaction de contenu marketing : pourquoi faire appel à une agence spécialisée', href: '/blogs/agence-redaction-contenu-marketing-casablanca' },
+      { title: 'Demander un audit SEO gratuit', href: '/contact' },
+    ],
     sections: [
+      {
+        id: 'introduction',
+        heading: 'Le SEO repose sur des leviers qui se renforcent entre eux',
+        paragraphs: [
+          "Le SEO ne repose pas sur une astuce, mais sur quelques leviers qui se renforcent entre eux. Voici les cinq à travailler en priorité pour gagner en visibilité sur Google.",
+        ],
+      },
       {
         id: 'seo-leviers',
         heading: 'Les 5 leviers SEO prioritaires',
-        paragraphs: ['Contenu semantique, Core Web Vitals, autorite, mobile-first et pilotage data.'],
+        paragraphs: [
+          "Chaque levier complète les autres : un excellent contenu sur un site mal construit, ou l'inverse, donne rarement de bons résultats.",
+        ],
+        bullets: [
+          "Un contenu qui répond à l'intention de recherche : la page doit répondre à la question de l'internaute et couvrir le sujet (termes associés, questions fréquentes)",
+          "Une base technique saine : pages indexées, site adapté au mobile, balises title et meta soignées, données structurées",
+          "L'autorité : des liens venant de sites fiables et pertinents. Quelques bons liens valent mieux que beaucoup de liens faibles",
+          "L'expérience utilisateur : chargement rapide, page stable, navigation claire (c'est ce que mesurent les Core Web Vitals)",
+          "Le pilotage par les données : suivre ses positions et ses clics dans Search Console et Google Analytics, puis corriger ce qui ne fonctionne pas",
+        ],
+      },
+      {
+        id: 'par-ou-commencer',
+        heading: 'Par où commencer pour une PME marocaine',
+        paragraphs: [
+          "Pour une entreprise qui démarre, l'ordre compte autant que les actions elles-mêmes.",
+        ],
+        bullets: [
+          'Vérifier que ses pages sont indexées',
+          'Optimiser les pages existantes avant d\'en créer de nouvelles',
+          'Publier régulièrement des contenus utiles',
+          'Compléter sa fiche Google Business Profile pour le SEO local',
+          'Faire un point mensuel sur les résultats',
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Chez Digitalink, nous construisons des stratégies SEO adaptées au marché marocain. Contactez-nous pour un audit gratuit.",
+        ],
       },
     ],
   },
@@ -885,12 +926,39 @@ export const BLOG_POSTS = [
     readTime: '8 min',
     tags: ['Google Ads', 'ROAS', 'SEA'],
     cover: '/images/blog/ads-google-roas-cover.svg',
-    related: [],
+    related: [
+      { title: 'Landing page : les 7 éléments qui font convertir', href: '/blogs/landing-page-conversion' },
+      { title: 'Google Ads vs Meta Ads : lequel choisir selon votre budget', href: '/blogs/google-ads-vs-meta-ads' },
+      { title: 'Demander un audit de vos campagnes', href: '/contact' },
+    ],
     sections: [
       {
+        id: 'introduction',
+        heading: 'Mieux dépenser plutôt que dépenser plus',
+        paragraphs: [
+          "Le ROAS mesure ce que rapporte chaque dirham dépensé en publicité. Pour l'améliorer à budget constant, il faut dépenser mieux, pas plus. Aucun résultat n'est garanti, mais ces leviers donnent les meilleures chances.",
+        ],
+      },
+      {
         id: 'optimisations-roas',
-        heading: 'Optimisations ROAS prioritaires',
-        paragraphs: ['Structure de compte, requetes, creatives et enchere basee conversion.'],
+        heading: 'Les 5 optimisations à faire en priorité',
+        paragraphs: [
+          "Ces actions sont classées de la plus fondamentale à la plus fine.",
+        ],
+        bullets: [
+          "Fiabiliser le suivi des conversions : sans mesure fiable des ventes ou des demandes de devis, les enchères automatiques travaillent à l'aveugle",
+          "Structurer le compte : une campagne par objectif, des groupes d'annonces centrés sur un thème précis",
+          "Exclure les mauvaises requêtes : consulter le rapport des termes de recherche et ajouter en mots-clés négatifs ceux qui n'ont aucun lien avec votre offre",
+          "Aligner annonce et page de destination : le message de l'annonce doit se retrouver sur la page",
+          "Réallouer le budget : réduire ce qui ne convertit pas, renforcer ce qui rapporte",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Digitalink audite vos campagnes avant de les optimiser. Contactez-nous pour un audit de vos campagnes.",
+        ],
       },
     ],
   },
@@ -905,12 +973,41 @@ export const BLOG_POSTS = [
     readTime: '5 min',
     tags: ['CRO', 'Landing page', 'Conversion'],
     cover: '/images/blog/landing-page-conversion-cover.svg',
-    related: [],
+    related: [
+      { title: 'Comment auditer son site avant de lancer une campagne SEA', href: '/blogs/auditer-site-avant-campagne-sea' },
+      { title: 'Google Ads : doubler son ROAS sans augmenter le budget', href: '/blogs/ads-google-roas' },
+      { title: 'Demander un avis sur votre page', href: '/contact' },
+    ],
     sections: [
       {
+        id: 'introduction',
+        heading: 'Un seul objectif : amener le visiteur à agir',
+        paragraphs: [
+          "Une landing page a un seul objectif : amener le visiteur à agir (demander un devis, appeler, s'inscrire). Voici les 7 éléments à vérifier.",
+        ],
+      },
+      {
         id: 'conversion-elements',
-        heading: 'Les 7 elements a prioriser',
-        paragraphs: ['Promesse claire, structure visuelle, CTA fort, preuves et reduction des frictions.'],
+        heading: 'Les 7 éléments à prioriser',
+        paragraphs: [
+          "Chacun de ces éléments réduit une raison de quitter la page.",
+        ],
+        bullets: [
+          "Une promesse claire dès le titre : ce que vous proposez et pour qui",
+          "Une structure lisible : une idée par section, de l'essentiel vers le détail",
+          "Un appel à l'action visible : un bouton précis (« Demander un devis »), répété sur la page",
+          "Des preuves : avis, références clients, chiffres que vous pouvez justifier",
+          "Peu de frictions : un formulaire court, sans champ inutile",
+          "Une page rapide sur mobile : la plupart des visiteurs arrivent depuis un téléphone",
+          "Un message cohérent avec la source : la page doit confirmer ce que promettait l'annonce ou le résultat Google",
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Avant de payer du trafic, vérifiez votre page avec notre check-list d'audit avant campagne. Contactez Digitalink pour un avis sur votre page.",
+        ],
       },
     ],
   },
@@ -925,12 +1022,50 @@ export const BLOG_POSTS = [
     readTime: '7 min',
     tags: ['Email', 'Automation', 'CRM'],
     cover: '/images/blog/email-marketing-automation-cover.svg',
-    related: [],
+    related: [
+      { title: 'Marketing automation : les CRM et outils adaptés au marché marocain', href: '/blogs/marketing-automation-crm-maroc' },
+      { title: 'Demander un accompagnement email marketing', href: '/contact' },
+    ],
     sections: [
       {
+        id: 'introduction',
+        heading: 'Envoyer le bon message au bon moment',
+        paragraphs: [
+          "Une séquence automatisée envoie le bon message au bon moment, sans intervention manuelle. C'est un levier peu coûteux pour transformer un contact en client.",
+        ],
+      },
+      {
         id: 'sequence-email',
-        heading: 'Sequence automation efficace',
-        paragraphs: ['Bienvenue, education, offre, relance et reactivation avec segmentation continue.'],
+        heading: 'Les 5 étapes d\'une séquence efficace',
+        paragraphs: [
+          "Une séquence simple suffit pour commencer, à condition de respecter cet ordre.",
+        ],
+        bullets: [
+          "Bienvenue : présenter l'entreprise et ce que le contact va recevoir",
+          "Éducation : 2 ou 3 emails utiles qui répondent à ses questions",
+          "Offre : proposer clairement votre service, avec un seul appel à l'action",
+          "Relance : rappeler l'offre à ceux qui n'ont pas répondu (ou le panier abandonné en e-commerce)",
+          "Réactivation : relancer les contacts devenus silencieux, ou les retirer de la liste",
+        ],
+      },
+      {
+        id: 'bonnes-pratiques',
+        heading: 'Bonnes pratiques',
+        paragraphs: [
+          "Quelques règles simples améliorent les résultats et protègent votre réputation d'expéditeur.",
+        ],
+        bullets: [
+          'Segmenter la liste selon les centres d\'intérêt',
+          "Envoyer uniquement aux personnes qui ont donné leur consentement, avec un lien de désabonnement",
+          'Suivre les clics et les conversions, pas seulement les ouvertures',
+        ],
+      },
+      {
+        id: 'conclusion',
+        heading: 'Conclusion',
+        paragraphs: [
+          "Pour choisir l'outil adapté, consultez notre article sur les CRM et le marketing automation au Maroc. Contactez Digitalink pour construire votre première séquence.",
+        ],
       },
     ],
   },
