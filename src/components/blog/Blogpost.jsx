@@ -3,6 +3,8 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { getPostBySlug } from '../../data/blogPosts';
 import styles from './Blogpost.module.css';
 
+const SITE_URL = 'https://digitalink.ma';
+
 function formatDate(iso) {
   return new Date(iso).toLocaleDateString('fr-FR', {
     day: 'numeric',
@@ -21,30 +23,54 @@ function slugify(text) {
     .replace(/\s+/g, '-');
 }
 
+function setHeadTag(selector, createTag, attr, value) {
+  let el = document.querySelector(selector);
+  if (!el) {
+    el = createTag();
+    document.head.appendChild(el);
+  }
+  const previous = el.getAttribute(attr) || '';
+  el.setAttribute(attr, value);
+  return () => el.setAttribute(attr, previous);
+}
+
+const makeLink = (rel) => () => {
+  const el = document.createElement('link');
+  el.setAttribute('rel', rel);
+  return el;
+};
+
+const makeMeta = (key, name) => () => {
+  const el = document.createElement('meta');
+  el.setAttribute(key, name);
+  return el;
+};
+
 export default function BlogPost() {
   const { slug } = useParams();
   const post = getPostBySlug(slug);
 
   useEffect(() => {
-    if (!post) return;
+    if (!post) return undefined;
+
+    const title = post.metaTitle || post.title;
+    const description = post.metaDescription || post.excerpt || '';
+    const url = `${SITE_URL}/blogs/${post.slug}`;
 
     const previousTitle = document.title;
-    const title = post.metaTitle || post.title;
     document.title = title;
 
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-
-    const previousDescription = metaDescription.getAttribute('content') || '';
-    metaDescription.setAttribute('content', post.metaDescription || post.excerpt || '');
+    const restores = [
+      setHeadTag('meta[name="description"]', makeMeta('name', 'description'), 'content', description),
+      setHeadTag('link[rel="canonical"]', makeLink('canonical'), 'href', url),
+      setHeadTag('meta[property="og:url"]', makeMeta('property', 'og:url'), 'content', url),
+      setHeadTag('meta[property="og:title"]', makeMeta('property', 'og:title'), 'content', title),
+      setHeadTag('meta[property="og:description"]', makeMeta('property', 'og:description'), 'content', description),
+    ];
 
     return () => {
       document.title = previousTitle;
-      metaDescription.setAttribute('content', previousDescription);
+      restores.forEach((restore) => restore());
     };
   }, [post]);
 
@@ -194,8 +220,8 @@ export default function BlogPost() {
           datePublished: post.date,
           dateModified: post.date,
           description: post.metaDescription,
-          mainEntityOfPage: { '@type': 'WebPage', '@id': `/blogs/${post.slug}` },
-          image: [post.cover],
+          mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blogs/${post.slug}` },
+          ...(post.cover ? { image: [`${SITE_URL}${post.cover}`] } : {}),
           keywords: post.tags.join(', '),
         })}
       </script>
